@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Nomad Tech Site</title>
+    <link>https://nguyenanhnhat12.github.io/myblog/</link>
+    <description>Recent content on My Nomad Tech Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>vi</language>
+    <lastBuildDate>Thu, 23 Oct 2025 01:00:00 +0700</lastBuildDate><atom:link href="https://nguyenanhnhat12.github.io/myblog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Liên hệ</title>
+      <link>https://nguyenanhnhat12.github.io/myblog/contact/</link>
+      <pubDate>Thu, 23 Oct 2025 01:00:00 +0700</pubDate>
+      
+      <guid>https://nguyenanhnhat12.github.io/myblog/contact/</guid>
+      <description>&lt;h1 id=&#34;-liên-hệ-với-tôi&#34;&gt;📬 Liên hệ với tôi&lt;/h1&gt;
+&lt;p&gt;Cảm ơn bạn đã ghé thăm blog của mình!&lt;br&gt;
+Nếu bạn có thắc mắc, muốn trao đổi về các chủ đề lập trình, hoặc chỉ đơn giản là muốn kết nối, hãy liên hệ với mình qua các kênh sau:&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-thông-tin-liên-hệ&#34;&gt;💌 &lt;strong&gt;Thông tin liên hệ&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;📧 Email:&lt;/strong&gt; &lt;a href=&#34;mailto:anhnhat.dev@gmail.com&#34;&gt;nhatnguyen120624@gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;🐙 GitHub:&lt;/strong&gt; &lt;a href=&#34;https://github.com/Nguyenanhnhat12&#34;&gt;github.com/Nguyenanhnhat12&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;💬 Facebook:&lt;/strong&gt; &lt;a href=&#34;https://www.facebook.com/muoosncos10tyr&#34;&gt;facebook.com/muoosncos10tyr&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-kết-nối--hợp-tác&#34;&gt;🤝 &lt;strong&gt;Kết nối &amp;amp; hợp tác&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Mình luôn sẵn lòng hợp tác trong các dự án về:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Java Spring Boot</title>
+      <link>https://nguyenanhnhat12.github.io/myblog/posts/java-spring-boot/</link>
+      <pubDate>Wed, 15 Oct 2025 03:25:00 +0700</pubDate>
+      
+      <guid>https://nguyenanhnhat12.github.io/myblog/posts/java-spring-boot/</guid>
+      <description>&lt;h2 id=&#34;lập-trình-java-spring-boot-hướng-dẫn-cơ-bản-cho-người-mới-bắt-đầu&#34;&gt;Lập trình Java Spring Boot: Hướng dẫn cơ bản cho người mới bắt đầu&lt;/h2&gt;
+&lt;h3 id=&#34;1-giới-thiệu-về-spring-boot&#34;&gt;1. Giới thiệu về Spring Boot&lt;/h3&gt;
+&lt;p&gt;Spring Boot là một framework mạnh mẽ giúp phát triển ứng dụng Java nhanh chóng, giảm thiểu cấu hình thủ công và tích hợp sẵn các tính năng cần thiết cho ứng dụng web. Framework này được xây dựng dựa trên Spring Framework nhưng cung cấp trải nghiệm phát triển đơn giản hơn với các đặc điểm nổi bật sau:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Java Cơ Bản</title>
+      <link>https://nguyenanhnhat12.github.io/myblog/posts/java-c%C6%A1-b%E1%BA%A3n/</link>
+      <pubDate>Wed, 15 Oct 2025 03:04:07 +0700</pubDate>
+      
+      <guid>https://nguyenanhnhat12.github.io/myblog/posts/java-c%C6%A1-b%E1%BA%A3n/</guid>
+      <description>&lt;h2 id=&#34;lập-trình-java-khái-niệm-cơ-bản-cho-người-mới-bắt-đầu&#34;&gt;Lập trình Java: Khái niệm cơ bản cho người mới bắt đầu&lt;/h2&gt;
+&lt;h3 id=&#34;1-giới-thiệu-về-java&#34;&gt;1. Giới thiệu về Java&lt;/h3&gt;
+&lt;p&gt;Java là ngôn ngữ lập trình hướng đối tượng, được phát triển bởi Sun Microsystems vào năm 1995. Ngôn ngữ này có những đặc điểm nổi bật sau:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;✨ &lt;strong&gt;Write Once, Run Anywhere&lt;/strong&gt;: Chạy được trên mọi nền tảng&lt;/li&gt;
+&lt;li&gt;🎯 &lt;strong&gt;Hướng đối tượng&lt;/strong&gt;: Mọi thứ đều là đối tượng&lt;/li&gt;
+&lt;li&gt;🔒 &lt;strong&gt;Bảo mật cao&lt;/strong&gt;: Chạy trong môi trường máy ảo an toàn&lt;/li&gt;
+&lt;li&gt;🚀 &lt;strong&gt;Hiệu năng tốt&lt;/strong&gt;: Tối ưu cho ứng dụng enterprise&lt;/li&gt;
+&lt;li&gt;🧵 &lt;strong&gt;Đa luồng&lt;/strong&gt;: Hỗ trợ xử lý đồng thời&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-cài-đặt-môi-trường-java&#34;&gt;2. Cài đặt môi trường Java&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Bước 1&lt;/strong&gt;: Tải JDK từ trang chủ Oracle&lt;br&gt;
+&lt;strong&gt;Bước 2&lt;/strong&gt;: Cài đặt JDK vào máy tính&lt;br&gt;
+&lt;strong&gt;Bước 3&lt;/strong&gt;: Thiết lập biến môi trường JAVA_HOME&lt;br&gt;
+&lt;strong&gt;Bước 4&lt;/strong&gt;: Cài đặt IDE (Eclipse/IntelliJ IDEA/VS Code)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Javascript Nodejs</title>
+      <link>https://nguyenanhnhat12.github.io/myblog/posts/javascript-nodejs/</link>
+      <pubDate>Wed, 15 Oct 2025 02:41:24 +0700</pubDate>
+      
+      <guid>https://nguyenanhnhat12.github.io/myblog/posts/javascript-nodejs/</guid>
+      <description>&lt;h2 id=&#34;lập-trình-nodejs-hướng-dẫn-cơ-bản&#34;&gt;Lập trình Node.js: Hướng dẫn cơ bản&lt;/h2&gt;
+&lt;h3 id=&#34;1-giới-thiệu-về-nodejs&#34;&gt;1. Giới thiệu về Node.js&lt;/h3&gt;
+&lt;p&gt;Node.js là môi trường chạy JavaScript bên ngoài trình duyệt, sử dụng engine V8 của Chrome. Đặc điểm:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🚀 &lt;strong&gt;Không đồng bộ&lt;/strong&gt;: Xử lý I/O hiệu quả với event-driven&lt;/li&gt;
+&lt;li&gt;🌐 &lt;strong&gt;Backend mạnh mẽ&lt;/strong&gt;: Xây dựng API, server nhanh chóng&lt;/li&gt;
+&lt;li&gt;📦 &lt;strong&gt;Hệ sinh thái npm&lt;/strong&gt;: Hàng triệu package có sẵn&lt;/li&gt;
+&lt;li&gt;🛠 &lt;strong&gt;Đa nền tảng&lt;/strong&gt;: Chạy trên Windows, macOS, Linux&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-thiết-lập-môi-trường&#34;&gt;2. Thiết lập môi trường&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Tải Node.js từ &lt;a href=&#34;https://nodejs.org&#34;&gt;nodejs.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Kiểm tra cài đặt:
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;node -v
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;npm -v
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;IDE: VS Code, WebStorm&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-chương-trình-đầu-tiên&#34;&gt;3. Chương trình đầu tiên&lt;/h3&gt;
+&lt;p&gt;Tạo file &lt;code&gt;hello.js&lt;/code&gt;:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Javascript Async</title>
+      <link>https://nguyenanhnhat12.github.io/myblog/posts/javascript-async/</link>
+      <pubDate>Wed, 15 Oct 2025 02:41:15 +0700</pubDate>
+      
+      <guid>https://nguyenanhnhat12.github.io/myblog/posts/javascript-async/</guid>
+      <description>&lt;h2 id=&#34;lập-trình-bất-đồng-bộ-trong-javascript-hướng-dẫn-cơ-bản&#34;&gt;Lập trình Bất Đồng Bộ trong JavaScript: Hướng dẫn cơ bản&lt;/h2&gt;
+&lt;h3 id=&#34;1-giới-thiệu-về-lập-trình-bất-đồng-bộ&#34;&gt;1. Giới thiệu về lập trình bất đồng bộ&lt;/h3&gt;
+&lt;p&gt;JavaScript là ngôn ngữ đơn luồng, nhưng hỗ trợ xử lý bất đồng bộ để thực hiện các tác vụ như gọi API, đọc file, hoặc setTimeout. Các khái niệm chính:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;⏳ &lt;strong&gt;Không đồng bộ&lt;/strong&gt;: Tác vụ chạy mà không chặn luồng chính&lt;/li&gt;
+&lt;li&gt;🛠 &lt;strong&gt;Callback, Promise, Async/Await&lt;/strong&gt;: Công cụ xử lý bất đồng bộ&lt;/li&gt;
+&lt;li&gt;🔄 &lt;strong&gt;Event Loop&lt;/strong&gt;: Quản lý các tác vụ không đồng bộ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-thiết-lập-môi-trường&#34;&gt;2. Thiết lập môi trường&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Trình duyệt&lt;/strong&gt;: Sử dụng DevTools (F12)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Node.js&lt;/strong&gt;: Tải từ &lt;a href=&#34;https://nodejs.org&#34;&gt;nodejs.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IDE&lt;/strong&gt;: VS Code hoặc WebStorm&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-callback&#34;&gt;3. Callback&lt;/h3&gt;
+&lt;p&gt;Callback là hàm được truyền vào hàm khác để xử lý kết quả bất đồng bộ:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Javascript Dom</title>
+      <link>https://nguyenanhnhat12.github.io/myblog/posts/javascript-dom/</link>
+      <pubDate>Wed, 15 Oct 2025 02:41:15 +0700</pubDate>
+      
+      <guid>https://nguyenanhnhat12.github.io/myblog/posts/javascript-dom/</guid>
+      <description>&lt;h2 id=&#34;thao-tác-dom-trong-javascript-hướng-dẫn-cơ-bản&#34;&gt;Thao tác DOM trong JavaScript: Hướng dẫn cơ bản&lt;/h2&gt;
+&lt;h3 id=&#34;1-giới-thiệu-về-dom&#34;&gt;1. Giới thiệu về DOM&lt;/h3&gt;
+&lt;p&gt;DOM (Document Object Model) là mô hình đối tượng tài liệu, cho phép JavaScript tương tác với HTML/CSS:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🌐 &lt;strong&gt;Cây DOM&lt;/strong&gt;: Biểu diễn cấu trúc HTML&lt;/li&gt;
+&lt;li&gt;🛠 &lt;strong&gt;Thao tác động&lt;/strong&gt;: Thêm, sửa, xóa phần tử&lt;/li&gt;
+&lt;li&gt;📡 &lt;strong&gt;Sự kiện&lt;/strong&gt;: Xử lý click, input, v.v.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-thiết-lập-môi-trường&#34;&gt;2. Thiết lập môi trường&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Trình duyệt&lt;/strong&gt;: Dùng DevTools (F12)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;HTML file&lt;/strong&gt;: Tạo file HTML cơ bản&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IDE&lt;/strong&gt;: VS Code&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-truy-cập-phần-tử&#34;&gt;3. Truy cập phần tử&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// Lấy phần tử theo ID
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;title&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; document.&lt;span style=&#34;color:#a6e22e&#34;&gt;getElementById&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;title&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// Lấy nhiều phần tử
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;items&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; document.&lt;span style=&#34;color:#a6e22e&#34;&gt;querySelectorAll&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;.item&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;4-thay-đổi-nội-dung&#34;&gt;4. Thay đổi nội dung&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;title&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; document.&lt;span style=&#34;color:#a6e22e&#34;&gt;getElementById&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;title&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;title&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;textContent&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Xin chào DOM! 👋&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// Thay đổi HTML
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;title&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;innerHTML&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;lt;strong&amp;gt;Xin chào&amp;lt;/strong&amp;gt; DOM!&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;5-thêmxóa-phần-tử&#34;&gt;5. Thêm/Xóa phần tử&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// Thêm phần tử
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;div&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; document.&lt;span style=&#34;color:#a6e22e&#34;&gt;createElement&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;div&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;div&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;textContent&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Phần tử mới&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;document.&lt;span style=&#34;color:#a6e22e&#34;&gt;body&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;appendChild&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;div&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// Xóa phần tử
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;div&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;remove&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;6-xử-lý-sự-kiện&#34;&gt;6. Xử lý sự kiện&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;button&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; document.&lt;span style=&#34;color:#a6e22e&#34;&gt;querySelector&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;button&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;button&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;addEventListener&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;click&amp;#34;&lt;/span&gt;, () =&amp;gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;alert&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Đã click!&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;});
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;7-ví-dụ-tạo-danh-sách-động&#34;&gt;7. Ví dụ: Tạo danh sách động&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;ul&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;id&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;list&amp;#34;&lt;/span&gt;&amp;gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;ul&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;button&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;onclick&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;addItem()&amp;#34;&lt;/span&gt;&amp;gt;Thêm&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;button&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;addItem&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;li&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; document.&lt;span style=&#34;color:#a6e22e&#34;&gt;createElement&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;li&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;li&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;textContent&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Mục mới&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    document.&lt;span style=&#34;color:#a6e22e&#34;&gt;getElementById&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;list&amp;#34;&lt;/span&gt;).&lt;span style=&#34;color:#a6e22e&#34;&gt;appendChild&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;li&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;💡 &lt;strong&gt;Lưu ý&lt;/strong&gt;: Thực hành với các sự kiện, CSS manipulation và thư viện như jQuery.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Javascript Es6</title>
+      <link>https://nguyenanhnhat12.github.io/myblog/posts/javascript-es6/</link>
+      <pubDate>Wed, 15 Oct 2025 02:41:15 +0700</pubDate>
+      
+      <guid>https://nguyenanhnhat12.github.io/myblog/posts/javascript-es6/</guid>
+      <description>&lt;h2 id=&#34;javascript-es6-hướng-dẫn-cơ-bản&#34;&gt;JavaScript ES6: Hướng dẫn cơ bản&lt;/h2&gt;
+&lt;h3 id=&#34;1-giới-thiệu-về-es6&#34;&gt;1. Giới thiệu về ES6&lt;/h3&gt;
+&lt;p&gt;ES6 (ECMAScript 2015) là phiên bản cải tiến lớn của JavaScript, mang đến cú pháp hiện đại và tính năng mạnh mẽ:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🛠 &lt;strong&gt;Cú pháp ngắn gọn&lt;/strong&gt;: &lt;code&gt;let&lt;/code&gt;, &lt;code&gt;const&lt;/code&gt;, arrow function&lt;/li&gt;
+&lt;li&gt;📦 &lt;strong&gt;Module&lt;/strong&gt;: Nhập/xuất module&lt;/li&gt;
+&lt;li&gt;🔄 &lt;strong&gt;Destructuring&lt;/strong&gt;: Trích xuất dữ liệu dễ dàng&lt;/li&gt;
+&lt;li&gt;🌟 &lt;strong&gt;Spread/Rest&lt;/strong&gt;: Xử lý mảng và đối tượng linh hoạt&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-thiết-lập-môi-trường&#34;&gt;2. Thiết lập môi trường&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Trình duyệt&lt;/strong&gt;: Hỗ trợ ES6 (Chrome, Firefox)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Node.js&lt;/strong&gt;: Tải từ &lt;a href=&#34;https://nodejs.org&#34;&gt;nodejs.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IDE&lt;/strong&gt;: VS Code, thêm Babel nếu cần chuyển đổi ES6 sang ES5&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-let-và-const&#34;&gt;3. Let và Const&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;John&amp;#34;&lt;/span&gt;; &lt;span style=&#34;color:#75715e&#34;&gt;// Có thể thay đổi giá trị
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;age&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;30&lt;/span&gt;; &lt;span style=&#34;color:#75715e&#34;&gt;// Không thể thay đổi
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;4-arrow-function&#34;&gt;4. Arrow Function&lt;/h3&gt;
+&lt;p&gt;Cú pháp ngắn gọn cho hàm:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Java Collections Framework</title>
+      <link>https://nguyenanhnhat12.github.io/myblog/posts/java-collection/</link>
+      <pubDate>Wed, 15 Oct 2025 02:41:14 +0700</pubDate>
+      
+      <guid>https://nguyenanhnhat12.github.io/myblog/posts/java-collection/</guid>
+      <description>&lt;h2 id=&#34;java-collections-framework-tổng-quan-và-cách-sử-dụng&#34;&gt;Java Collections Framework: Tổng Quan và Cách Sử Dụng&lt;/h2&gt;
+&lt;p&gt;Java Collections Framework cung cấp một kiến trúc để lưu trữ và thao tác với các nhóm đối tượng. Framework này giúp lập trình viên làm việc hiệu quả với dữ liệu.&lt;/p&gt;
+&lt;h3 id=&#34;1-giới-thiệu-collections-framework-&#34;&gt;1. Giới Thiệu Collections Framework 🌟&lt;/h3&gt;
+&lt;p&gt;Collections Framework bao gồm:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Interfaces&lt;/strong&gt;: Các abstract data types định nghĩa collections&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implementations&lt;/strong&gt;: Các lớp cụ thể của interfaces&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Algorithms&lt;/strong&gt;: Các phương thức để xử lý collections&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-các-interface-chính-&#34;&gt;2. Các Interface Chính 📚&lt;/h3&gt;
+&lt;h4 id=&#34;21-collection-interface&#34;&gt;2.1 Collection Interface&lt;/h4&gt;
+&lt;p&gt;Interface gốc của hierarchy với các operation cơ bản:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Javascript Cơ Bản</title>
+      <link>https://nguyenanhnhat12.github.io/myblog/posts/javascript-c%C6%A1-b%E1%BA%A3n/</link>
+      <pubDate>Wed, 15 Oct 2025 02:41:14 +0700</pubDate>
+      
+      <guid>https://nguyenanhnhat12.github.io/myblog/posts/javascript-c%C6%A1-b%E1%BA%A3n/</guid>
+      <description>&lt;h2 id=&#34;lập-trình-javascript-hướng-dẫn-cơ-bản&#34;&gt;Lập trình JavaScript: Hướng dẫn cơ bản&lt;/h2&gt;
+&lt;h3 id=&#34;1-giới-thiệu-về-javascript&#34;&gt;1. Giới thiệu về JavaScript&lt;/h3&gt;
+&lt;p&gt;JavaScript là ngôn ngữ lập trình động, dùng cho web và server (Node.js). Đặc điểm:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🌐 Chạy trên trình duyệt&lt;/li&gt;
+&lt;li&gt;⚡️ Linh hoạt, dễ học&lt;/li&gt;
+&lt;li&gt;📚 Hỗ trợ thư viện (React, Vue)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-thiết-lập-môi-trường&#34;&gt;2. Thiết lập môi trường&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Trình duyệt&lt;/strong&gt;: Dùng DevTools (F12)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Node.js&lt;/strong&gt;: Tải từ &lt;a href=&#34;https://nodejs.org&#34;&gt;nodejs.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IDE&lt;/strong&gt;: VS Code hoặc WebStorm&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-chương-trình-đầu-tiên&#34;&gt;3. Chương trình đầu tiên&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello, World! 👋&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Chạy bằng Node.js:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Lập Trình Hướng Đối Tượng Trong Java</title>
+      <link>https://nguyenanhnhat12.github.io/myblog/posts/java-oop/</link>
+      <pubDate>Wed, 15 Oct 2025 02:41:14 +0700</pubDate>
+      
+      <guid>https://nguyenanhnhat12.github.io/myblog/posts/java-oop/</guid>
+      <description>&lt;h2 id=&#34;lập-trình-hướng-đối-tượng-trong-java&#34;&gt;Lập Trình Hướng Đối Tượng Trong Java&lt;/h2&gt;
+&lt;h3 id=&#34;1-giới-thiệu-về-oop-&#34;&gt;1. Giới Thiệu về OOP 🎯&lt;/h3&gt;
+&lt;p&gt;Lập trình hướng đối tượng (OOP) là một phương pháp lập trình dựa trên khái niệm về &amp;ldquo;objects&amp;rdquo; - các đối tượng chứa dữ liệu và code. OOP có 4 tính chất cơ bản:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;📦 &lt;strong&gt;Tính đóng gói&lt;/strong&gt; (Encapsulation)&lt;/li&gt;
+&lt;li&gt;🔄 &lt;strong&gt;Tính kế thừa&lt;/strong&gt; (Inheritance)&lt;/li&gt;
+&lt;li&gt;📝 &lt;strong&gt;Tính đa hình&lt;/strong&gt; (Polymorphism)&lt;/li&gt;
+&lt;li&gt;🎨 &lt;strong&gt;Tính trừu tượng&lt;/strong&gt; (Abstraction)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-tính-đóng-gói-encapsulation&#34;&gt;2. Tính Đóng Gói (Encapsulation)&lt;/h3&gt;
+&lt;p&gt;Đóng gói là việc gom dữ liệu và phương thức vào một lớp và kiểm soát quyền truy cập:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Giới thiệu</title>
+      <link>https://nguyenanhnhat12.github.io/myblog/profile/</link>
+      <pubDate>Wed, 15 Oct 2025 02:09:00 +0700</pubDate>
+      
+      <guid>https://nguyenanhnhat12.github.io/myblog/profile/</guid>
+      <description>&lt;h1 id=&#34;-xin-chào-mình-là-nguyễn-anh-nhật&#34;&gt;👋 Xin chào, mình là &lt;strong&gt;Nguyễn Anh Nhật&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;Chào mừng bạn đã ghé thăm blog của mình!&lt;br&gt;
+Mình là &lt;strong&gt;Nguyễn Anh Nhật&lt;/strong&gt;, một lập trình viên yêu thích công nghệ và đam mê sáng tạo ra những sản phẩm có giá trị thực tế. Mình luôn tin rằng lập trình không chỉ là công việc viết mã, mà là nghệ thuật giải quyết vấn đề và tạo ra sự khác biệt cho người dùng.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

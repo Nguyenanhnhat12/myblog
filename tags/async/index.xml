@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Async on My Nomad Tech Site</title>
+    <link>https://nguyenanhnhat12.github.io/myblog/tags/async/</link>
+    <description>Recent content in Async on My Nomad Tech Site</description>
+    <generator>Hugo</generator>
+    <language>vi</language>
+    <lastBuildDate>Wed, 15 Oct 2025 02:41:15 +0700</lastBuildDate>
+    <atom:link href="https://nguyenanhnhat12.github.io/myblog/tags/async/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Javascript Async</title>
+      <link>https://nguyenanhnhat12.github.io/myblog/posts/javascript-async/</link>
+      <pubDate>Wed, 15 Oct 2025 02:41:15 +0700</pubDate>
+      <guid>https://nguyenanhnhat12.github.io/myblog/posts/javascript-async/</guid>
+      <description>&lt;h2 id=&#34;lập-trình-bất-đồng-bộ-trong-javascript-hướng-dẫn-cơ-bản&#34;&gt;Lập trình Bất Đồng Bộ trong JavaScript: Hướng dẫn cơ bản&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-giới-thiệu-về-lập-trình-bất-đồng-bộ&#34;&gt;1. Giới thiệu về lập trình bất đồng bộ&lt;/h3&gt;&#xA;&lt;p&gt;JavaScript là ngôn ngữ đơn luồng, nhưng hỗ trợ xử lý bất đồng bộ để thực hiện các tác vụ như gọi API, đọc file, hoặc setTimeout. Các khái niệm chính:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;⏳ &lt;strong&gt;Không đồng bộ&lt;/strong&gt;: Tác vụ chạy mà không chặn luồng chính&lt;/li&gt;&#xA;&lt;li&gt;🛠 &lt;strong&gt;Callback, Promise, Async/Await&lt;/strong&gt;: Công cụ xử lý bất đồng bộ&lt;/li&gt;&#xA;&lt;li&gt;🔄 &lt;strong&gt;Event Loop&lt;/strong&gt;: Quản lý các tác vụ không đồng bộ&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;2-thiết-lập-môi-trường&#34;&gt;2. Thiết lập môi trường&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Trình duyệt&lt;/strong&gt;: Sử dụng DevTools (F12)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Node.js&lt;/strong&gt;: Tải từ &lt;a href=&#34;https://nodejs.org&#34;&gt;nodejs.org&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;IDE&lt;/strong&gt;: VS Code hoặc WebStorm&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;3-callback&#34;&gt;3. Callback&lt;/h3&gt;&#xA;&lt;p&gt;Callback là hàm được truyền vào hàm khác để xử lý kết quả bất đồng bộ:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

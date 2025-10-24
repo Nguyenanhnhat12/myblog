@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on My Nomad Tech Site</title>
+    <link>https://nguyenanhnhat12.github.io/myblog/categories/</link>
+    <description>Recent content in Categories on My Nomad Tech Site</description>
+    <generator>Hugo</generator>
+    <language>vi</language>
+    <lastBuildDate>Wed, 15 Oct 2025 03:25:00 +0700</lastBuildDate>
+    <atom:link href="https://nguyenanhnhat12.github.io/myblog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java</title>
+      <link>https://nguyenanhnhat12.github.io/myblog/categories/java/</link>
+      <pubDate>Wed, 15 Oct 2025 03:25:00 +0700</pubDate>
+      <guid>https://nguyenanhnhat12.github.io/myblog/categories/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spring Boot</title>
+      <link>https://nguyenanhnhat12.github.io/myblog/categories/spring-boot/</link>
+      <pubDate>Wed, 15 Oct 2025 03:25:00 +0700</pubDate>
+      <guid>https://nguyenanhnhat12.github.io/myblog/categories/spring-boot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JavaScript</title>
+      <link>https://nguyenanhnhat12.github.io/myblog/categories/javascript/</link>
+      <pubDate>Wed, 15 Oct 2025 02:41:24 +0700</pubDate>
+      <guid>https://nguyenanhnhat12.github.io/myblog/categories/javascript/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

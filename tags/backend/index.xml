@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Backend on My Nomad Tech Site</title>
+    <link>https://nguyenanhnhat12.github.io/myblog/tags/backend/</link>
+    <description>Recent content in Backend on My Nomad Tech Site</description>
+    <generator>Hugo</generator>
+    <language>vi</language>
+    <lastBuildDate>Wed, 15 Oct 2025 03:25:00 +0700</lastBuildDate>
+    <atom:link href="https://nguyenanhnhat12.github.io/myblog/tags/backend/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java Spring Boot</title>
+      <link>https://nguyenanhnhat12.github.io/myblog/posts/java-spring-boot/</link>
+      <pubDate>Wed, 15 Oct 2025 03:25:00 +0700</pubDate>
+      <guid>https://nguyenanhnhat12.github.io/myblog/posts/java-spring-boot/</guid>
+      <description>&lt;h2 id=&#34;lập-trình-java-spring-boot-hướng-dẫn-cơ-bản-cho-người-mới-bắt-đầu&#34;&gt;Lập trình Java Spring Boot: Hướng dẫn cơ bản cho người mới bắt đầu&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-giới-thiệu-về-spring-boot&#34;&gt;1. Giới thiệu về Spring Boot&lt;/h3&gt;&#xA;&lt;p&gt;Spring Boot là một framework mạnh mẽ giúp phát triển ứng dụng Java nhanh chóng, giảm thiểu cấu hình thủ công và tích hợp sẵn các tính năng cần thiết cho ứng dụng web. Framework này được xây dựng dựa trên Spring Framework nhưng cung cấp trải nghiệm phát triển đơn giản hơn với các đặc điểm nổi bật sau:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Javascript Nodejs</title>
+      <link>https://nguyenanhnhat12.github.io/myblog/posts/javascript-nodejs/</link>
+      <pubDate>Wed, 15 Oct 2025 02:41:24 +0700</pubDate>
+      <guid>https://nguyenanhnhat12.github.io/myblog/posts/javascript-nodejs/</guid>
+      <description>&lt;h2 id=&#34;lập-trình-nodejs-hướng-dẫn-cơ-bản&#34;&gt;Lập trình Node.js: Hướng dẫn cơ bản&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-giới-thiệu-về-nodejs&#34;&gt;1. Giới thiệu về Node.js&lt;/h3&gt;&#xA;&lt;p&gt;Node.js là môi trường chạy JavaScript bên ngoài trình duyệt, sử dụng engine V8 của Chrome. Đặc điểm:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;🚀 &lt;strong&gt;Không đồng bộ&lt;/strong&gt;: Xử lý I/O hiệu quả với event-driven&lt;/li&gt;&#xA;&lt;li&gt;🌐 &lt;strong&gt;Backend mạnh mẽ&lt;/strong&gt;: Xây dựng API, server nhanh chóng&lt;/li&gt;&#xA;&lt;li&gt;📦 &lt;strong&gt;Hệ sinh thái npm&lt;/strong&gt;: Hàng triệu package có sẵn&lt;/li&gt;&#xA;&lt;li&gt;🛠 &lt;strong&gt;Đa nền tảng&lt;/strong&gt;: Chạy trên Windows, macOS, Linux&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;2-thiết-lập-môi-trường&#34;&gt;2. Thiết lập môi trường&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Tải Node.js từ &lt;a href=&#34;https://nodejs.org&#34;&gt;nodejs.org&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Kiểm tra cài đặt:&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;node -v&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;npm -v&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;&#xA;&lt;li&gt;IDE: VS Code, WebStorm&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;3-chương-trình-đầu-tiên&#34;&gt;3. Chương trình đầu tiên&lt;/h3&gt;&#xA;&lt;p&gt;Tạo file &lt;code&gt;hello.js&lt;/code&gt;:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

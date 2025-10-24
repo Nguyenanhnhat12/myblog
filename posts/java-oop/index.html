@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+
+<title>Lập Trình Hướng Đối Tượng Trong Java | My Nomad Tech Site</title>
+<meta name="description" content="Lập Trình Hướng Đối Tượng Trong Java 1. Giới Thiệu về OOP 🎯 Lập trình hướng đối tượng (OOP) là một phương pháp lập trình dựa trên khái niệm về …">
+
+
+<meta property="og:title" content="Lập Trình Hướng Đối Tượng Trong Java | My Nomad Tech Site">
+<meta property="og:description" content="Lập Trình Hướng Đối Tượng Trong Java 1. Giới Thiệu về OOP 🎯 Lập trình hướng đối tượng (OOP) là một phương pháp lập trình dựa trên khái niệm về …">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://nguyenanhnhat12.github.io/myblog/posts/java-oop/">
+<meta property="og:site_name" content="My Nomad Tech Site">
+
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Lập Trình Hướng Đối Tượng Trong Java | My Nomad Tech Site">
+<meta name="twitter:description" content="Lập Trình Hướng Đối Tượng Trong Java 1. Giới Thiệu về OOP 🎯 Lập trình hướng đối tượng (OOP) là một phương pháp lập trình dựa trên khái niệm về …">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "name": "Lập Trình Hướng Đối Tượng Trong Java | My Nomad Tech Site",
+  "url": "https:\/\/nguyenanhnhat12.github.io\/myblog\/posts\/java-oop\/",
+  
+  "headline": "Lập Trình Hướng Đối Tượng Trong Java",
+  "datePublished": "2025-10-15T02:41:14\u002b07:00",
+  "author": {
+    "@type": "Person",
+    "name": "Nguyễn Anh Nhật"
+  }
+  
+}
+</script>
+    
+
+<link rel="stylesheet" href="/myblog/scss/main.min.d7bf61d9add05695af38c2250bd4536060997ce44ed2d7ada784b47bcb71c29c.css" integrity="sha256-179h2a3QVpWvOMIlC9RTYGCZfORO0tetp4S0e8txwpw=">
+
+
+
+<script src="/myblog/js/main.min.1dc48d277f58c447b08394eeabd1a9c2ee6bacc162b90044cc98b07898af3d86.js" integrity="sha256-HcSNJ39YxEewg5Tuq9Gpwu5rrMFiuQBEzJiweJivPYY=" defer></script>
+    
+</head>
+<body>
+    <div class="particles" id="particles"></div>
+    <nav role="navigation" aria-label="Main navigation">
+    <div class="container">
+        <div class="nav-container">
+            <a href="https://nguyenanhnhat12.github.io/myblog/" class="logo" aria-label="My Nomad Tech Site - Home">Blog của NguyenAnhNhat</a>
+            <ul class="nav-links" id="nav-menu">
+                
+                <li><a href="/myblog/" aria-current="false">Trang chủ</a></li>
+                
+                <li><a href="/myblog/profile/" aria-current="false">Giới thiệu</a></li>
+                
+                <li><a href="/myblog/posts/" aria-current="false">Blog</a></li>
+                
+                <li><a href="/myblog/contact/" aria-current="false">Liên hệ</a></li>
+                
+            </ul>
+            <div class="lang-switcher" role="group" aria-label="Language selection">
+                
+                <a href="https://nguyenanhnhat12.github.io/myblog/vi/" 
+                   class="lang-link active" 
+                   aria-label="Switch to Vietnamese" 
+                   aria-current="true">VI</a>
+                
+            </div>
+            <button class="mobile-menu-btn" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">☰</button>
+        </div>
+    </div>
+</nav>
+    <main id="main" role="main">
+        
+<div class="post-container">
+    
+    <header class="post-header">
+        
+        
+        <div class="featured-image">
+            <img src="images/java/java-oop.jpg" alt="Lập Trình Hướng Đối Tượng Trong Java">
+        </div>
+        
+        
+        
+        <div class="post-meta">
+            <h1 class="post-title">Lập Trình Hướng Đối Tượng Trong Java</h1>
+            <div class="post-info">
+                <span class="post-date">
+                    <i class="fas fa-calendar"></i>
+                    15/10/2025
+                </span>
+                
+                <span class="post-categories">
+                    <i class="fas fa-folder"></i>
+                    
+                    <a href="/categories/java">Java</a>
+                    
+                </span>
+                
+                
+                <span class="post-tags">
+                    <i class="fas fa-tags"></i>
+                    
+                    <a href="/tags/java">#java</a>
+                    
+                    <a href="/tags/oop">#oop</a>
+                    
+                    <a href="/tags/programming">#programming</a>
+                    
+                </span>
+                
+            </div>
+        </div>
+    </header>
+
+    
+    <article class="post-content">
+        <div class="post-body">
+            <h2 id="lập-trình-hướng-đối-tượng-trong-java">Lập Trình Hướng Đối Tượng Trong Java</h2>
+<h3 id="1-giới-thiệu-về-oop-">1. Giới Thiệu về OOP 🎯</h3>
+<p>Lập trình hướng đối tượng (OOP) là một phương pháp lập trình dựa trên khái niệm về &ldquo;objects&rdquo; - các đối tượng chứa dữ liệu và code. OOP có 4 tính chất cơ bản:</p>
+<ul>
+<li>📦 <strong>Tính đóng gói</strong> (Encapsulation)</li>
+<li>🔄 <strong>Tính kế thừa</strong> (Inheritance)</li>
+<li>📝 <strong>Tính đa hình</strong> (Polymorphism)</li>
+<li>🎨 <strong>Tính trừu tượng</strong> (Abstraction)</li>
+</ul>
+<h3 id="2-tính-đóng-gói-encapsulation">2. Tính Đóng Gói (Encapsulation)</h3>
+<p>Đóng gói là việc gom dữ liệu và phương thức vào một lớp và kiểm soát quyền truy cập:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Student</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> String name;    <span style="color:#75715e">// private field</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">int</span> age;       <span style="color:#75715e">// private field</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Public getter/setter</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">getName</span>() {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> name;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">setName</span>(String name) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">name</span> <span style="color:#f92672">=</span> name;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h3 id="3-tính-kế-thừa-inheritance">3. Tính Kế Thừa (Inheritance)</h3>
+<p>Kế thừa cho phép một lớp kế thừa thuộc tính và phương thức từ lớp khác:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#75715e">// Lớp cha</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Animal</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">protected</span> String name;
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">eat</span>() {
+</span></span><span style="display:flex;"><span>        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Animal is eating...&#34;</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Lớp con</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Dog</span> <span style="color:#66d9ef">extends</span> Animal {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">bark</span>() {
+</span></span><span style="display:flex;"><span>        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Dog is barking...&#34;</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h3 id="4-tính-đa-hình-polymorphism">4. Tính Đa Hình (Polymorphism)</h3>
+<p>Đa hình cho phép một đối tượng có nhiều hình thái khác nhau:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#75715e">// Đa hình thời gian chạy (Runtime)</span>
+</span></span><span style="display:flex;"><span>Animal animal <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Dog();
+</span></span><span style="display:flex;"><span>animal.<span style="color:#a6e22e">eat</span>();  <span style="color:#75715e">// Gọi phương thức của Dog</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Đa hình thời gian biên dịch (Compile-time)</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Calculator</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">add</span>(<span style="color:#66d9ef">int</span> a, <span style="color:#66d9ef">int</span> b) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> a <span style="color:#f92672">+</span> b;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">double</span> <span style="color:#a6e22e">add</span>(<span style="color:#66d9ef">double</span> a, <span style="color:#66d9ef">double</span> b) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> a <span style="color:#f92672">+</span> b;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h3 id="5-tính-trừu-tượng-abstraction">5. Tính Trừu Tượng (Abstraction)</h3>
+<p>Trừu tượng hóa cho phép ẩn chi tiết triển khai và chỉ hiển thị tính năng:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#75715e">// Abstract class</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">abstract</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Shape</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">abstract</span> <span style="color:#66d9ef">double</span> <span style="color:#a6e22e">calculateArea</span>();
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Concrete class</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Circle</span> <span style="color:#66d9ef">extends</span> Shape {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">double</span> radius;
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Override</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">double</span> <span style="color:#a6e22e">calculateArea</span>() {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> Math.<span style="color:#a6e22e">PI</span> <span style="color:#f92672">*</span> radius <span style="color:#f92672">*</span> radius;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h3 id="6-interface-trong-java">6. Interface Trong Java</h3>
+<p>Interface định nghĩa một hợp đồng mà các lớp phải tuân theo:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">interface</span> <span style="color:#a6e22e">Printable</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">print</span>();
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Document</span> <span style="color:#66d9ef">implements</span> Printable {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Override</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">print</span>() {
+</span></span><span style="display:flex;"><span>        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Printing document...&#34;</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h3 id="7-best-practices-">7. Best Practices 🌟</h3>
+<ol>
+<li>
+<p><strong>Nguyên tắc SOLID</strong>:</p>
+<ul>
+<li>Single Responsibility (Đơn nhiệm)</li>
+<li>Open/Closed (Mở/Đóng)</li>
+<li>Liskov Substitution (Thay thế Liskov)</li>
+<li>Interface Segregation (Phân tách interface)</li>
+<li>Dependency Inversion (Đảo ngược phụ thuộc)</li>
+</ul>
+</li>
+<li>
+<p><strong>Quy tắc đặt tên</strong>:</p>
+<ul>
+<li>Tên lớp: PascalCase (Student, BankAccount)</li>
+<li>Tên method: camelCase (getData, setName)</li>
+<li>Tên biến: camelCase (firstName, accountNumber)</li>
+</ul>
+</li>
+</ol>
+<h3 id="8-ví-dụ-thực-tế">8. Ví Dụ Thực Tế</h3>
+<p>Một ví dụ về hệ thống quản lý nhân viên:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#75715e">// Interface định nghĩa hành vi</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">interface</span> <span style="color:#a6e22e">Payable</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">double</span> <span style="color:#a6e22e">calculateSalary</span>();
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Abstract class base</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">abstract</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Employee</span> <span style="color:#66d9ef">implements</span> Payable {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">protected</span> String name;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">protected</span> String id;
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">Employee</span>(String name, String id) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">name</span> <span style="color:#f92672">=</span> name;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">id</span> <span style="color:#f92672">=</span> id;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">abstract</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">work</span>();
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Concrete class</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Developer</span> <span style="color:#66d9ef">extends</span> Employee {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> String programmingLanguage;
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Override</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">work</span>() {
+</span></span><span style="display:flex;"><span>        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Writing code in &#34;</span> <span style="color:#f92672">+</span> programmingLanguage);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Override</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">double</span> <span style="color:#a6e22e">calculateSalary</span>() {
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Logic tính lương</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> 1000.<span style="color:#a6e22e">0</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h3 id="-key-points">🔑 Key Points</h3>
+<ul>
+<li>OOP giúp code dễ bảo trì và tái sử dụng</li>
+<li>Sử dụng access modifiers phù hợp (private, protected, public)</li>
+<li>Ưu tiên composition over inheritance</li>
+<li>Tuân thủ nguyên tắc SOLID</li>
+</ul>
+<h3 id="-tài-liệu-tham-khảo">📚 Tài Liệu Tham Khảo</h3>
+<ul>
+<li><a href="https://docs.oracle.com/javase/tutorial/java/concepts/">Java Documentation</a></li>
+<li><a href="https://refactoring.guru/design-patterns">OOP Design Patterns</a></li>
+</ul>
+
+        </div>
+    </article>
+
+    
+    <footer class="post-footer">
+        
+        <nav class="post-nav">
+            
+            
+            <a class="next" href="https://nguyenanhnhat12.github.io/myblog/posts/javascript-c%C6%A1-b%E1%BA%A3n/">
+                Javascript Cơ Bản
+                <i class="fas fa-arrow-right"></i>
+            </a>
+            
+        </nav>
+
+        
+        <div class="back-to-blog">
+            <a href="/posts/" class="back-button">
+                ← Quay lại Blog
+            </a>
+        </div>
+    </footer>
+</div>
+
+<style>
+.back-to-blog {
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border: 2px solid #00ffff;
+    border-radius: 8px;
+    color: #00ffff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.back-button:hover {
+    background-color: #00ffff;
+    color: #0a0a0a !important;
+    box-shadow: 0 0 10px #00ffff;
+    transform: translateY(-2px);
+}
+</style>
+
+    </main>
+    <footer style="background: rgba(0, 0, 0, 0.3); padding: 2rem 0; margin-top: 4rem; text-align: center; border-top: 1px solid rgba(255, 255, 255, 0.1);">
+    <div class="container">
+        <p style="color: #888; margin: 0;">
+            Copyright © 2025 • Made by <a href="https://github.com/m03315" target="_blank" style="color: #9d50bb; text-decoration: none;">Nguyễn An Nhật</a>
+        </p>
+    </div>
+</footer>
+</body>
+</html>

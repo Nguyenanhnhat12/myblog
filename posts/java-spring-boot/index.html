@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+
+<title>Java Spring Boot | My Nomad Tech Site</title>
+<meta name="description" content="Hướng dẫn cơ bản về lập trình Java Spring Boot cho người mới bắt đầu">
+
+
+<meta property="og:title" content="Java Spring Boot | My Nomad Tech Site">
+<meta property="og:description" content="Hướng dẫn cơ bản về lập trình Java Spring Boot cho người mới bắt đầu">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://nguyenanhnhat12.github.io/myblog/posts/java-spring-boot/">
+<meta property="og:site_name" content="My Nomad Tech Site">
+
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Java Spring Boot | My Nomad Tech Site">
+<meta name="twitter:description" content="Hướng dẫn cơ bản về lập trình Java Spring Boot cho người mới bắt đầu">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "name": "Java Spring Boot | My Nomad Tech Site",
+  "url": "https:\/\/nguyenanhnhat12.github.io\/myblog\/posts\/java-spring-boot\/",
+  
+  "headline": "Java Spring Boot",
+  "datePublished": "2025-10-15T03:25:00\u002b07:00",
+  "author": {
+    "@type": "Person",
+    "name": "Nguyễn Anh Nhật"
+  }
+  
+}
+</script>
+    
+
+<link rel="stylesheet" href="/myblog/scss/main.min.d7bf61d9add05695af38c2250bd4536060997ce44ed2d7ada784b47bcb71c29c.css" integrity="sha256-179h2a3QVpWvOMIlC9RTYGCZfORO0tetp4S0e8txwpw=">
+
+
+
+<script src="/myblog/js/main.min.1dc48d277f58c447b08394eeabd1a9c2ee6bacc162b90044cc98b07898af3d86.js" integrity="sha256-HcSNJ39YxEewg5Tuq9Gpwu5rrMFiuQBEzJiweJivPYY=" defer></script>
+    
+</head>
+<body>
+    <div class="particles" id="particles"></div>
+    <nav role="navigation" aria-label="Main navigation">
+    <div class="container">
+        <div class="nav-container">
+            <a href="https://nguyenanhnhat12.github.io/myblog/" class="logo" aria-label="My Nomad Tech Site - Home">Blog của NguyenAnhNhat</a>
+            <ul class="nav-links" id="nav-menu">
+                
+                <li><a href="/myblog/" aria-current="false">Trang chủ</a></li>
+                
+                <li><a href="/myblog/profile/" aria-current="false">Giới thiệu</a></li>
+                
+                <li><a href="/myblog/posts/" aria-current="false">Blog</a></li>
+                
+                <li><a href="/myblog/contact/" aria-current="false">Liên hệ</a></li>
+                
+            </ul>
+            <div class="lang-switcher" role="group" aria-label="Language selection">
+                
+                <a href="https://nguyenanhnhat12.github.io/myblog/vi/" 
+                   class="lang-link active" 
+                   aria-label="Switch to Vietnamese" 
+                   aria-current="true">VI</a>
+                
+            </div>
+            <button class="mobile-menu-btn" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">☰</button>
+        </div>
+    </div>
+</nav>
+    <main id="main" role="main">
+        
+<div class="post-container">
+    
+    <header class="post-header">
+        
+        
+        <div class="featured-image">
+            <img src="images/java/java-spring%20boot.png" alt="Java Spring Boot">
+        </div>
+        
+        
+        
+        <div class="post-meta">
+            <h1 class="post-title">Java Spring Boot</h1>
+            <div class="post-info">
+                <span class="post-date">
+                    <i class="fas fa-calendar"></i>
+                    15/10/2025
+                </span>
+                
+                <span class="post-categories">
+                    <i class="fas fa-folder"></i>
+                    
+                    <a href="/categories/java">Java</a>
+                    
+                    <a href="/categories/spring-boot">Spring Boot</a>
+                    
+                </span>
+                
+                
+                <span class="post-tags">
+                    <i class="fas fa-tags"></i>
+                    
+                    <a href="/tags/java">#java</a>
+                    
+                    <a href="/tags/spring-boot">#spring-boot</a>
+                    
+                    <a href="/tags/backend">#backend</a>
+                    
+                    <a href="/tags/tutorial">#tutorial</a>
+                    
+                </span>
+                
+            </div>
+        </div>
+    </header>
+
+    
+    <article class="post-content">
+        <div class="post-body">
+            <h2 id="lập-trình-java-spring-boot-hướng-dẫn-cơ-bản-cho-người-mới-bắt-đầu">Lập trình Java Spring Boot: Hướng dẫn cơ bản cho người mới bắt đầu</h2>
+<h3 id="1-giới-thiệu-về-spring-boot">1. Giới thiệu về Spring Boot</h3>
+<p>Spring Boot là một framework mạnh mẽ giúp phát triển ứng dụng Java nhanh chóng, giảm thiểu cấu hình thủ công và tích hợp sẵn các tính năng cần thiết cho ứng dụng web. Framework này được xây dựng dựa trên Spring Framework nhưng cung cấp trải nghiệm phát triển đơn giản hơn với các đặc điểm nổi bật sau:</p>
+<ul>
+<li>⚙️ <strong>Tự động cấu hình (Auto Configuration)</strong>: Tự động thiết lập các thành phần dựa trên các phụ thuộc được thêm vào.</li>
+<li>🚀 <strong>Tích hợp sẵn Web Server</strong>: Hỗ trợ Tomcat, Jetty hoặc Undertow, không cần triển khai thủ công trên máy chủ.</li>
+<li>📦 <strong>Quản lý phụ thuộc dễ dàng</strong>: Sử dụng các &ldquo;Starter&rdquo; để thêm các thư viện cần thiết một cách nhanh chóng.</li>
+<li>🧱 <strong>Phù hợp cho REST API và Microservices</strong>: Lý tưởng để xây dựng các ứng dụng web hiện đại và các dịch vụ phân tán.</li>
+</ul>
+<p>Spring Boot được sử dụng rộng rãi trong phát triển ứng dụng doanh nghiệp, API RESTful và kiến trúc microservices.</p>
+<hr>
+<h3 id="2-cài-đặt-và-tạo-project">2. Cài đặt và tạo project</h3>
+<p>Để bắt đầu với Spring Boot, bạn cần cài đặt môi trường Java (JDK) và một IDE như IntelliJ IDEA, Eclipse hoặc Visual Studio Code. Dưới đây là hai cách phổ biến để tạo một dự án Spring Boot:</p>
+<h4 id="cách-1-sử-dụng-spring-initializr">Cách 1: Sử dụng Spring Initializr</h4>
+<ol>
+<li>Truy cập <a href="https://start.spring.io">Spring Initializr</a>.</li>
+<li>Cấu hình project:
+<ul>
+<li><strong>Project</strong>: Maven hoặc Gradle</li>
+<li><strong>Language</strong>: Java</li>
+<li><strong>Spring Boot Version</strong>: Chọn phiên bản mới nhất (ví dụ: 3.x.x)</li>
+<li><strong>Dependencies</strong>: Thêm các phụ thuộc như <code>Spring Web</code>, <code>Spring Data JPA</code>, <code>H2 Database</code></li>
+</ul>
+</li>
+<li>Nhấn nút <strong>Generate</strong>, tải file <code>.zip</code>, giải nén và mở bằng IDE.</li>
+</ol>
+<h4 id="cách-2-sử-dụng-dòng-lệnh-với-spring-cli">Cách 2: Sử dụng dòng lệnh với Spring CLI</h4>
+<p>Cài đặt Spring Boot CLI từ <a href="https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started.html">trang chính thức</a> và chạy lệnh sau để tạo project:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>spring init --dependencies<span style="color:#f92672">=</span>web,data-jpa,h2 --name<span style="color:#f92672">=</span>demo-spring-boot
+</span></span><span style="display:flex;"><span>cd spring-boot
+</span></span></code></pre></div><p>Mở project trong IDE để bắt đầu phát triển.</p>
+<hr>
+<h3 id="3-cấu-trúc-project-cơ-bản">3. Cấu trúc project cơ bản</h3>
+<p>Một project Spring Boot tiêu chuẩn có cấu trúc thư mục như sau:</p>
+<pre tabindex="0"><code>spring-boot/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/example/demo/
+│   │   │       ├── DemoApplication.java
+│   │   │       └── controller/
+│   │   │       └── model/
+│   │   │       └── service/
+│   │   │       └── repository/
+│   │   ├── resources/
+│   │   │   ├── application.properties
+│   │   │   ├── static/
+│   │   │   └── templates/
+├── pom.xml (hoặc build.gradle)
+└── README.md
+</code></pre><ul>
+<li><strong>DemoApplication.java</strong>: Lớp chính chứa phương thức <code>main</code> để khởi động ứng dụng.</li>
+<li><strong>application.properties</strong>: File cấu hình cho ứng dụng (ví dụ: cấu hình database, port).</li>
+<li><strong>pom.xml</strong>: File quản lý phụ thuộc nếu sử dụng Maven.</li>
+</ul>
+<hr>
+<h3 id="4-ví-dụ-rest-api-cơ-bản">4. Ví dụ REST API cơ bản</h3>
+<p>Dưới đây là một ví dụ về cách tạo một REST API đơn giản để quản lý danh sách &ldquo;Todo&rdquo; sử dụng Spring Boot:</p>
+<h4 id="tạo-model">Tạo Model</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.example.demo.model;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Todo</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> Long id;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> String task;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">boolean</span> completed;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Constructor</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">Todo</span>(Long id, String task, <span style="color:#66d9ef">boolean</span> completed) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">id</span> <span style="color:#f92672">=</span> id;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">task</span> <span style="color:#f92672">=</span> task;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">completed</span> <span style="color:#f92672">=</span> completed;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Getters and Setters</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> Long <span style="color:#a6e22e">getId</span>() { <span style="color:#66d9ef">return</span> id; }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">setId</span>(Long id) { <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">id</span> <span style="color:#f92672">=</span> id; }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">getTask</span>() { <span style="color:#66d9ef">return</span> task; }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">setTask</span>(String task) { <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">task</span> <span style="color:#f92672">=</span> task; }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">boolean</span> <span style="color:#a6e22e">isCompleted</span>() { <span style="color:#66d9ef">return</span> completed; }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">setCompleted</span>(<span style="color:#66d9ef">boolean</span> completed) { <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">completed</span> <span style="color:#f92672">=</span> completed; }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h4 id="tạo-controller">Tạo Controller</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.example.demo.controller;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> com.example.demo.model.Todo;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> org.springframework.web.bind.annotation.*;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> java.util.ArrayList;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> java.util.List;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@RestController</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@RequestMapping</span>(<span style="color:#e6db74">&#34;/api/todos&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">TodoController</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> List<span style="color:#f92672">&lt;</span>Todo<span style="color:#f92672">&gt;</span> todos <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> ArrayList<span style="color:#f92672">&lt;&gt;</span>();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// GET: Lấy danh sách todo</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@GetMapping</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> List<span style="color:#f92672">&lt;</span>Todo<span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">getAllTodos</span>() {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> todos;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// POST: Thêm một todo mới</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@PostMapping</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> Todo <span style="color:#a6e22e">addTodo</span>(<span style="color:#a6e22e">@RequestBody</span> Todo todo) {
+</span></span><span style="display:flex;"><span>        todos.<span style="color:#a6e22e">add</span>(todo);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> todo;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h4 id="cấu-hình-applicationproperties">Cấu hình application.properties</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-properties" data-lang="properties"><span style="display:flex;"><span><span style="color:#a6e22e">server.port</span><span style="color:#f92672">=</span><span style="color:#e6db74">8080</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">spring.application.name</span><span style="color:#f92672">=</span><span style="color:#e6db74">demo</span>
+</span></span></code></pre></div><h4 id="chạy-ứng-dụng">Chạy ứng dụng</h4>
+<ul>
+<li>Mở file <code>DemoApplication.java</code> và chạy phương thức <code>main</code>.</li>
+<li>Truy cập <code>http://localhost:8080/api/todos</code> để kiểm tra API bằng Postman hoặc trình duyệt.</li>
+</ul>
+<hr>
+<h3 id="5-kết-nối-với-cơ-sở-dữ-liệu-h2-database">5. Kết nối với cơ sở dữ liệu (H2 Database)</h3>
+<p>Spring Boot hỗ trợ tích hợp dễ dàng với cơ sở dữ liệu. Dưới đây là cách sử dụng H2 Database (cơ sở dữ liệu in-memory):</p>
+<h4 id="thêm-phụ-thuộc-trong-pomxml">Thêm phụ thuộc trong <code>pom.xml</code></h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-xml" data-lang="xml"><span style="display:flex;"><span><span style="color:#f92672">&lt;dependency&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&lt;groupId&gt;</span>com.h2database<span style="color:#f92672">&lt;/groupId&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&lt;artifactId&gt;</span>h2<span style="color:#f92672">&lt;/artifactId&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&lt;scope&gt;</span>runtime<span style="color:#f92672">&lt;/scope&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&lt;/dependency&gt;</span>
+</span></span></code></pre></div><h4 id="cấu-hình-applicationproperties-1">Cấu hình <code>application.properties</code></h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-properties" data-lang="properties"><span style="display:flex;"><span><span style="color:#a6e22e">spring.datasource.url</span><span style="color:#f92672">=</span><span style="color:#e6db74">jdbc:h2:mem:testdb</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">spring.datasource.driverClassName</span><span style="color:#f92672">=</span><span style="color:#e6db74">org.h2.Driver</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">spring.datasource.username</span><span style="color:#f92672">=</span><span style="color:#e6db74">sa</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">spring.datasource.password</span><span style="color:#f92672">=</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">spring.jpa.database-platform</span><span style="color:#f92672">=</span><span style="color:#e6db74">org.hibernate.dialect.H2Dialect</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">spring.h2.console.enabled</span><span style="color:#f92672">=</span><span style="color:#e6db74">true</span>
+</span></span></code></pre></div><h4 id="tạo-entity">Tạo Entity</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.example.demo.model;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> jakarta.persistence.Entity;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> jakarta.persistence.Id;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@Entity</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Todo</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Id</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> Long id;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> String task;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">boolean</span> completed;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Constructor, Getters and Setters (giống ví dụ trên)</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h4 id="tạo-repository">Tạo Repository</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.example.demo.repository;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> com.example.demo.model.Todo;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> org.springframework.data.jpa.repository.JpaRepository;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">interface</span> <span style="color:#a6e22e">TodoRepository</span> <span style="color:#66d9ef">extends</span> JpaRepository<span style="color:#f92672">&lt;</span>Todo, Long<span style="color:#f92672">&gt;</span> {
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h4 id="cập-nhật-controller">Cập nhật Controller</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.example.demo.controller;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> com.example.demo.model.Todo;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> com.example.demo.repository.TodoRepository;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> org.springframework.beans.factory.annotation.Autowired;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> org.springframework.web.bind.annotation.*;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> java.util.List;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@RestController</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@RequestMapping</span>(<span style="color:#e6db74">&#34;/api/todos&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">TodoController</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Autowired</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> TodoRepository todoRepository;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@GetMapping</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> List<span style="color:#f92672">&lt;</span>Todo<span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">getAllTodos</span>() {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> todoRepository.<span style="color:#a6e22e">findAll</span>();
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@PostMapping</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> Todo <span style="color:#a6e22e">addTodo</span>(<span style="color:#a6e22e">@RequestBody</span> Todo todo) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> todoRepository.<span style="color:#a6e22e">save</span>(todo);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Truy cập <code>http://localhost:8080/h2-console</code> để kiểm tra dữ liệu trong H2 Database.</p>
+<hr>
+<h3 id="6-kiểm-thử-ứng-dụng">6. Kiểm thử ứng dụng</h3>
+<p>Spring Boot cung cấp công cụ để kiểm thử ứng dụng dễ dàng. Ví dụ về một bài kiểm thử đơn giản:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.example.demo.controller;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> org.junit.jupiter.api.Test;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> org.springframework.beans.factory.annotation.Autowired;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> org.springframework.boot.test.context.SpringBootTest;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import static</span> org.junit.jupiter.api.Assertions.assertNotNull;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@SpringBootTest</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">TodoControllerTest</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Autowired</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> TodoController todoController;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Test</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">contextLoads</span>() {
+</span></span><span style="display:flex;"><span>        assertNotNull(todoController);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><hr>
+<h3 id="7-triển-khai-ứng-dụng">7. Triển khai ứng dụng</h3>
+<p>Để triển khai ứng dụng Spring Boot:</p>
+<ol>
+<li>
+<p><strong>Build file JAR</strong>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mvn clean package
+</span></span></code></pre></div></li>
+<li>
+<p><strong>Chạy file JAR</strong>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>java -jar target/demo-0.0.1-SNAPSHOT.jar
+</span></span></code></pre></div></li>
+<li>
+<p><strong>Triển khai lên server</strong>: Sử dụng các dịch vụ như Heroku, AWS, hoặc Docker.</p>
+</li>
+</ol>
+<hr>
+<blockquote>
+<p>💡 <strong>Lưu ý</strong>: Bài viết này chỉ giới thiệu các khái niệm cơ bản của Spring Boot. Để trở thành lập trình viên Spring Boot chuyên nghiệp, bạn cần:</p>
+<ul>
+<li>Tìm hiểu sâu về Spring Data, Spring Security</li>
+<li>Nắm vững kiến trúc Microservices</li>
+<li>Thực hành xây dựng các API phức tạp hơn</li>
+<li>Học về triển khai ứng dụng trên cloud</li>
+</ul></blockquote>
+<h4 id="tài-liệu-tham-khảo">Tài liệu tham khảo</h4>
+<ul>
+<li><a href="https://docs.spring.io/spring-boot/docs/current/reference/html/">Spring Boot Documentation</a></li>
+<li><a href="https://start.spring.io">Spring Initializr</a></li>
+<li><a href="https://spring.io/guides">Spring Guides</a></li>
+</ul>
+
+        </div>
+    </article>
+
+    
+    <footer class="post-footer">
+        
+        <nav class="post-nav">
+            
+            <a class="prev" href="https://nguyenanhnhat12.github.io/myblog/posts/java-c%C6%A1-b%E1%BA%A3n/">
+                <i class="fas fa-arrow-left"></i>
+                Java Cơ Bản
+            </a>
+            
+            
+        </nav>
+
+        
+        <div class="back-to-blog">
+            <a href="/posts/" class="back-button">
+                ← Quay lại Blog
+            </a>
+        </div>
+    </footer>
+</div>
+
+<style>
+.back-to-blog {
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border: 2px solid #00ffff;
+    border-radius: 8px;
+    color: #00ffff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.back-button:hover {
+    background-color: #00ffff;
+    color: #0a0a0a !important;
+    box-shadow: 0 0 10px #00ffff;
+    transform: translateY(-2px);
+}
+</style>
+
+    </main>
+    <footer style="background: rgba(0, 0, 0, 0.3); padding: 2rem 0; margin-top: 4rem; text-align: center; border-top: 1px solid rgba(255, 255, 255, 0.1);">
+    <div class="container">
+        <p style="color: #888; margin: 0;">
+            Copyright © 2025 • Made by <a href="https://github.com/m03315" target="_blank" style="color: #9d50bb; text-decoration: none;">Nguyễn An Nhật</a>
+        </p>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java on My Nomad Tech Site</title>
+    <link>https://nguyenanhnhat12.github.io/myblog/categories/java/</link>
+    <description>Recent content in Java on My Nomad Tech Site</description>
+    <generator>Hugo</generator>
+    <language>vi</language>
+    <lastBuildDate>Wed, 15 Oct 2025 03:25:00 +0700</lastBuildDate>
+    <atom:link href="https://nguyenanhnhat12.github.io/myblog/categories/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java Spring Boot</title>
+      <link>https://nguyenanhnhat12.github.io/myblog/posts/java-spring-boot/</link>
+      <pubDate>Wed, 15 Oct 2025 03:25:00 +0700</pubDate>
+      <guid>https://nguyenanhnhat12.github.io/myblog/posts/java-spring-boot/</guid>
+      <description>&lt;h2 id=&#34;lập-trình-java-spring-boot-hướng-dẫn-cơ-bản-cho-người-mới-bắt-đầu&#34;&gt;Lập trình Java Spring Boot: Hướng dẫn cơ bản cho người mới bắt đầu&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-giới-thiệu-về-spring-boot&#34;&gt;1. Giới thiệu về Spring Boot&lt;/h3&gt;&#xA;&lt;p&gt;Spring Boot là một framework mạnh mẽ giúp phát triển ứng dụng Java nhanh chóng, giảm thiểu cấu hình thủ công và tích hợp sẵn các tính năng cần thiết cho ứng dụng web. Framework này được xây dựng dựa trên Spring Framework nhưng cung cấp trải nghiệm phát triển đơn giản hơn với các đặc điểm nổi bật sau:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Java Cơ Bản</title>
+      <link>https://nguyenanhnhat12.github.io/myblog/posts/java-c%C6%A1-b%E1%BA%A3n/</link>
+      <pubDate>Wed, 15 Oct 2025 03:04:07 +0700</pubDate>
+      <guid>https://nguyenanhnhat12.github.io/myblog/posts/java-c%C6%A1-b%E1%BA%A3n/</guid>
+      <description>&lt;h2 id=&#34;lập-trình-java-khái-niệm-cơ-bản-cho-người-mới-bắt-đầu&#34;&gt;Lập trình Java: Khái niệm cơ bản cho người mới bắt đầu&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-giới-thiệu-về-java&#34;&gt;1. Giới thiệu về Java&lt;/h3&gt;&#xA;&lt;p&gt;Java là ngôn ngữ lập trình hướng đối tượng, được phát triển bởi Sun Microsystems vào năm 1995. Ngôn ngữ này có những đặc điểm nổi bật sau:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;✨ &lt;strong&gt;Write Once, Run Anywhere&lt;/strong&gt;: Chạy được trên mọi nền tảng&lt;/li&gt;&#xA;&lt;li&gt;🎯 &lt;strong&gt;Hướng đối tượng&lt;/strong&gt;: Mọi thứ đều là đối tượng&lt;/li&gt;&#xA;&lt;li&gt;🔒 &lt;strong&gt;Bảo mật cao&lt;/strong&gt;: Chạy trong môi trường máy ảo an toàn&lt;/li&gt;&#xA;&lt;li&gt;🚀 &lt;strong&gt;Hiệu năng tốt&lt;/strong&gt;: Tối ưu cho ứng dụng enterprise&lt;/li&gt;&#xA;&lt;li&gt;🧵 &lt;strong&gt;Đa luồng&lt;/strong&gt;: Hỗ trợ xử lý đồng thời&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;2-cài-đặt-môi-trường-java&#34;&gt;2. Cài đặt môi trường Java&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Bước 1&lt;/strong&gt;: Tải JDK từ trang chủ Oracle&lt;br&gt;&#xA;&lt;strong&gt;Bước 2&lt;/strong&gt;: Cài đặt JDK vào máy tính&lt;br&gt;&#xA;&lt;strong&gt;Bước 3&lt;/strong&gt;: Thiết lập biến môi trường JAVA_HOME&lt;br&gt;&#xA;&lt;strong&gt;Bước 4&lt;/strong&gt;: Cài đặt IDE (Eclipse/IntelliJ IDEA/VS Code)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Java Collections Framework</title>
+      <link>https://nguyenanhnhat12.github.io/myblog/posts/java-collection/</link>
+      <pubDate>Wed, 15 Oct 2025 02:41:14 +0700</pubDate>
+      <guid>https://nguyenanhnhat12.github.io/myblog/posts/java-collection/</guid>
+      <description>&lt;h2 id=&#34;java-collections-framework-tổng-quan-và-cách-sử-dụng&#34;&gt;Java Collections Framework: Tổng Quan và Cách Sử Dụng&lt;/h2&gt;&#xA;&lt;p&gt;Java Collections Framework cung cấp một kiến trúc để lưu trữ và thao tác với các nhóm đối tượng. Framework này giúp lập trình viên làm việc hiệu quả với dữ liệu.&lt;/p&gt;&#xA;&lt;h3 id=&#34;1-giới-thiệu-collections-framework-&#34;&gt;1. Giới Thiệu Collections Framework 🌟&lt;/h3&gt;&#xA;&lt;p&gt;Collections Framework bao gồm:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Interfaces&lt;/strong&gt;: Các abstract data types định nghĩa collections&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Implementations&lt;/strong&gt;: Các lớp cụ thể của interfaces&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Algorithms&lt;/strong&gt;: Các phương thức để xử lý collections&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;2-các-interface-chính-&#34;&gt;2. Các Interface Chính 📚&lt;/h3&gt;&#xA;&lt;h4 id=&#34;21-collection-interface&#34;&gt;2.1 Collection Interface&lt;/h4&gt;&#xA;&lt;p&gt;Interface gốc của hierarchy với các operation cơ bản:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lập Trình Hướng Đối Tượng Trong Java</title>
+      <link>https://nguyenanhnhat12.github.io/myblog/posts/java-oop/</link>
+      <pubDate>Wed, 15 Oct 2025 02:41:14 +0700</pubDate>
+      <guid>https://nguyenanhnhat12.github.io/myblog/posts/java-oop/</guid>
+      <description>&lt;h2 id=&#34;lập-trình-hướng-đối-tượng-trong-java&#34;&gt;Lập Trình Hướng Đối Tượng Trong Java&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-giới-thiệu-về-oop-&#34;&gt;1. Giới Thiệu về OOP 🎯&lt;/h3&gt;&#xA;&lt;p&gt;Lập trình hướng đối tượng (OOP) là một phương pháp lập trình dựa trên khái niệm về &amp;ldquo;objects&amp;rdquo; - các đối tượng chứa dữ liệu và code. OOP có 4 tính chất cơ bản:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;📦 &lt;strong&gt;Tính đóng gói&lt;/strong&gt; (Encapsulation)&lt;/li&gt;&#xA;&lt;li&gt;🔄 &lt;strong&gt;Tính kế thừa&lt;/strong&gt; (Inheritance)&lt;/li&gt;&#xA;&lt;li&gt;📝 &lt;strong&gt;Tính đa hình&lt;/strong&gt; (Polymorphism)&lt;/li&gt;&#xA;&lt;li&gt;🎨 &lt;strong&gt;Tính trừu tượng&lt;/strong&gt; (Abstraction)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;2-tính-đóng-gói-encapsulation&#34;&gt;2. Tính Đóng Gói (Encapsulation)&lt;/h3&gt;&#xA;&lt;p&gt;Đóng gói là việc gom dữ liệu và phương thức vào một lớp và kiểm soát quyền truy cập:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

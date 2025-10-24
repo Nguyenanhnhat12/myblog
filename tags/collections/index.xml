@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Collections on My Nomad Tech Site</title>
+    <link>https://nguyenanhnhat12.github.io/myblog/tags/collections/</link>
+    <description>Recent content in Collections on My Nomad Tech Site</description>
+    <generator>Hugo</generator>
+    <language>vi</language>
+    <lastBuildDate>Wed, 15 Oct 2025 02:41:14 +0700</lastBuildDate>
+    <atom:link href="https://nguyenanhnhat12.github.io/myblog/tags/collections/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java Collections Framework</title>
+      <link>https://nguyenanhnhat12.github.io/myblog/posts/java-collection/</link>
+      <pubDate>Wed, 15 Oct 2025 02:41:14 +0700</pubDate>
+      <guid>https://nguyenanhnhat12.github.io/myblog/posts/java-collection/</guid>
+      <description>&lt;h2 id=&#34;java-collections-framework-tổng-quan-và-cách-sử-dụng&#34;&gt;Java Collections Framework: Tổng Quan và Cách Sử Dụng&lt;/h2&gt;&#xA;&lt;p&gt;Java Collections Framework cung cấp một kiến trúc để lưu trữ và thao tác với các nhóm đối tượng. Framework này giúp lập trình viên làm việc hiệu quả với dữ liệu.&lt;/p&gt;&#xA;&lt;h3 id=&#34;1-giới-thiệu-collections-framework-&#34;&gt;1. Giới Thiệu Collections Framework 🌟&lt;/h3&gt;&#xA;&lt;p&gt;Collections Framework bao gồm:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Interfaces&lt;/strong&gt;: Các abstract data types định nghĩa collections&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Implementations&lt;/strong&gt;: Các lớp cụ thể của interfaces&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Algorithms&lt;/strong&gt;: Các phương thức để xử lý collections&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;2-các-interface-chính-&#34;&gt;2. Các Interface Chính 📚&lt;/h3&gt;&#xA;&lt;h4 id=&#34;21-collection-interface&#34;&gt;2.1 Collection Interface&lt;/h4&gt;&#xA;&lt;p&gt;Interface gốc của hierarchy với các operation cơ bản:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+
+<title>Javascript Nodejs | My Nomad Tech Site</title>
+<meta name="description" content="Giới thiệu Node.js: khái niệm, event loop, module và ví dụ xây dựng server đơn giản">
+
+
+<meta property="og:title" content="Javascript Nodejs | My Nomad Tech Site">
+<meta property="og:description" content="Giới thiệu Node.js: khái niệm, event loop, module và ví dụ xây dựng server đơn giản">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://nguyenanhnhat12.github.io/myblog/posts/javascript-nodejs/">
+<meta property="og:site_name" content="My Nomad Tech Site">
+
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Javascript Nodejs | My Nomad Tech Site">
+<meta name="twitter:description" content="Giới thiệu Node.js: khái niệm, event loop, module và ví dụ xây dựng server đơn giản">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "name": "Javascript Nodejs | My Nomad Tech Site",
+  "url": "https:\/\/nguyenanhnhat12.github.io\/myblog\/posts\/javascript-nodejs\/",
+  
+  "headline": "Javascript Nodejs",
+  "datePublished": "2025-10-15T02:41:24\u002b07:00",
+  "author": {
+    "@type": "Person",
+    "name": "Nguyễn Anh Nhật"
+  }
+  
+}
+</script>
+    
+
+<link rel="stylesheet" href="/myblog/scss/main.min.d7bf61d9add05695af38c2250bd4536060997ce44ed2d7ada784b47bcb71c29c.css" integrity="sha256-179h2a3QVpWvOMIlC9RTYGCZfORO0tetp4S0e8txwpw=">
+
+
+
+<script src="/myblog/js/main.min.1dc48d277f58c447b08394eeabd1a9c2ee6bacc162b90044cc98b07898af3d86.js" integrity="sha256-HcSNJ39YxEewg5Tuq9Gpwu5rrMFiuQBEzJiweJivPYY=" defer></script>
+    
+</head>
+<body>
+    <div class="particles" id="particles"></div>
+    <nav role="navigation" aria-label="Main navigation">
+    <div class="container">
+        <div class="nav-container">
+            <a href="https://nguyenanhnhat12.github.io/myblog/" class="logo" aria-label="My Nomad Tech Site - Home">Blog của NguyenAnhNhat</a>
+            <ul class="nav-links" id="nav-menu">
+                
+                <li><a href="/myblog/" aria-current="false">Trang chủ</a></li>
+                
+                <li><a href="/myblog/profile/" aria-current="false">Giới thiệu</a></li>
+                
+                <li><a href="/myblog/posts/" aria-current="false">Blog</a></li>
+                
+                <li><a href="/myblog/contact/" aria-current="false">Liên hệ</a></li>
+                
+            </ul>
+            <div class="lang-switcher" role="group" aria-label="Language selection">
+                
+                <a href="https://nguyenanhnhat12.github.io/myblog/vi/" 
+                   class="lang-link active" 
+                   aria-label="Switch to Vietnamese" 
+                   aria-current="true">VI</a>
+                
+            </div>
+            <button class="mobile-menu-btn" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">☰</button>
+        </div>
+    </div>
+</nav>
+    <main id="main" role="main">
+        
+<div class="post-container">
+    
+    <header class="post-header">
+        
+        
+        <div class="featured-image">
+            <img src="images/javascript/javascript-nodejs.png" alt="Javascript Nodejs">
+        </div>
+        
+        
+        
+        <div class="post-meta">
+            <h1 class="post-title">Javascript Nodejs</h1>
+            <div class="post-info">
+                <span class="post-date">
+                    <i class="fas fa-calendar"></i>
+                    15/10/2025
+                </span>
+                
+                <span class="post-categories">
+                    <i class="fas fa-folder"></i>
+                    
+                    <a href="/categories/javascript">JavaScript</a>
+                    
+                </span>
+                
+                
+                <span class="post-tags">
+                    <i class="fas fa-tags"></i>
+                    
+                    <a href="/tags/javascript">#javascript</a>
+                    
+                    <a href="/tags/nodejs">#nodejs</a>
+                    
+                    <a href="/tags/backend">#backend</a>
+                    
+                    <a href="/tags/runtime">#runtime</a>
+                    
+                </span>
+                
+            </div>
+        </div>
+    </header>
+
+    
+    <article class="post-content">
+        <div class="post-body">
+            <h2 id="lập-trình-nodejs-hướng-dẫn-cơ-bản">Lập trình Node.js: Hướng dẫn cơ bản</h2>
+<h3 id="1-giới-thiệu-về-nodejs">1. Giới thiệu về Node.js</h3>
+<p>Node.js là môi trường chạy JavaScript bên ngoài trình duyệt, sử dụng engine V8 của Chrome. Đặc điểm:</p>
+<ul>
+<li>🚀 <strong>Không đồng bộ</strong>: Xử lý I/O hiệu quả với event-driven</li>
+<li>🌐 <strong>Backend mạnh mẽ</strong>: Xây dựng API, server nhanh chóng</li>
+<li>📦 <strong>Hệ sinh thái npm</strong>: Hàng triệu package có sẵn</li>
+<li>🛠 <strong>Đa nền tảng</strong>: Chạy trên Windows, macOS, Linux</li>
+</ul>
+<h3 id="2-thiết-lập-môi-trường">2. Thiết lập môi trường</h3>
+<ul>
+<li>Tải Node.js từ <a href="https://nodejs.org">nodejs.org</a></li>
+<li>Kiểm tra cài đặt:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>node -v
+</span></span><span style="display:flex;"><span>npm -v
+</span></span></code></pre></div></li>
+<li>IDE: VS Code, WebStorm</li>
+</ul>
+<h3 id="3-chương-trình-đầu-tiên">3. Chương trình đầu tiên</h3>
+<p>Tạo file <code>hello.js</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;Hello, Node.js! 👋&#34;</span>);
+</span></span></code></pre></div><p>Chạy:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>node hello.js
+</span></span></code></pre></div><h3 id="4-module-trong-nodejs">4. Module trong Node.js</h3>
+<p>Node.js sử dụng module để tổ chức code. Ví dụ:</p>
+<h4 id="tạo-module-mathjs">Tạo module (<code>math.js</code>)</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#a6e22e">exports</span>.<span style="color:#a6e22e">add</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">a</span>, <span style="color:#a6e22e">b</span>) =&gt; <span style="color:#a6e22e">a</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">b</span>;
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">exports</span>.<span style="color:#a6e22e">subtract</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">a</span>, <span style="color:#a6e22e">b</span>) =&gt; <span style="color:#a6e22e">a</span> <span style="color:#f92672">-</span> <span style="color:#a6e22e">b</span>;
+</span></span></code></pre></div><h4 id="sử-dụng-module">Sử dụng module</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">math</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#34;./math&#34;</span>);
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">math</span>.<span style="color:#a6e22e">add</span>(<span style="color:#ae81ff">5</span>, <span style="color:#ae81ff">3</span>)); <span style="color:#75715e">// 8
+</span></span></span></code></pre></div><h3 id="5-xây-dựng-server-cơ-bản">5. Xây dựng server cơ bản</h3>
+<p>Tạo file <code>server.js</code> sử dụng module <code>http</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">http</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#34;http&#34;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">server</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">createServer</span>((<span style="color:#a6e22e">req</span>, <span style="color:#a6e22e">res</span>) =&gt; {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">res</span>.<span style="color:#a6e22e">statusCode</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">200</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">res</span>.<span style="color:#a6e22e">setHeader</span>(<span style="color:#e6db74">&#34;Content-Type&#34;</span>, <span style="color:#e6db74">&#34;text/plain&#34;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">res</span>.<span style="color:#a6e22e">end</span>(<span style="color:#e6db74">&#34;Hello, Node.js Server! 👋&#34;</span>);
+</span></span><span style="display:flex;"><span>});
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">server</span>.<span style="color:#a6e22e">listen</span>(<span style="color:#ae81ff">3000</span>, () =&gt; {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;Server running at http://localhost:3000/&#34;</span>);
+</span></span><span style="display:flex;"><span>});
+</span></span></code></pre></div><p>Chạy:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>node server.js
+</span></span></code></pre></div><p>Truy cập <code>http://localhost:3000</code> để xem kết quả.</p>
+<h3 id="6-event-loop">6. Event Loop</h3>
+<p>Node.js sử dụng <strong>event loop</strong> để xử lý các tác vụ không đồng bộ:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#a6e22e">setTimeout</span>(() =&gt; <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;Chạy sau 2s&#34;</span>), <span style="color:#ae81ff">2000</span>);
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;Chạy ngay lập tức&#34;</span>);
+</span></span></code></pre></div><h3 id="7-sử-dụng-npm">7. Sử dụng npm</h3>
+<p>Cài đặt package (ví dụ: <code>express</code>):</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>npm install express
+</span></span></code></pre></div><p>Ví dụ server với Express:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">express</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#34;express&#34;</span>);
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">app</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">express</span>();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">app</span>.<span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#34;/&#34;</span>, (<span style="color:#a6e22e">req</span>, <span style="color:#a6e22e">res</span>) =&gt; {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">res</span>.<span style="color:#a6e22e">send</span>(<span style="color:#e6db74">&#34;Hello, Express! 🚀&#34;</span>);
+</span></span><span style="display:flex;"><span>});
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">app</span>.<span style="color:#a6e22e">listen</span>(<span style="color:#ae81ff">3000</span>, () =&gt; {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;Server running at http://localhost:3000/&#34;</span>);
+</span></span><span style="display:flex;"><span>});
+</span></span></code></pre></div><blockquote>
+<p>💡 <strong>Lưu ý</strong>: Thực hành với Express, tìm hiểu async/await và các package như <code>axios</code>.</p></blockquote>
+<h4 id="tài-liệu-tham-khảo">Tài liệu tham khảo</h4>
+<ul>
+<li><a href="https://nodejs.org/en/docs/">Node.js Documentation</a></li>
+<li><a href="https://www.npmjs.com">npm</a></li>
+<li><a href="https://expressjs.com">Express</a></li>
+</ul>
+
+        </div>
+    </article>
+
+    
+    <footer class="post-footer">
+        
+        <nav class="post-nav">
+            
+            <a class="prev" href="https://nguyenanhnhat12.github.io/myblog/posts/javascript-async/">
+                <i class="fas fa-arrow-left"></i>
+                Javascript Async
+            </a>
+            
+            
+            <a class="next" href="https://nguyenanhnhat12.github.io/myblog/posts/java-c%C6%A1-b%E1%BA%A3n/">
+                Java Cơ Bản
+                <i class="fas fa-arrow-right"></i>
+            </a>
+            
+        </nav>
+
+        
+        <div class="back-to-blog">
+            <a href="/posts/" class="back-button">
+                ← Quay lại Blog
+            </a>
+        </div>
+    </footer>
+</div>
+
+<style>
+.back-to-blog {
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border: 2px solid #00ffff;
+    border-radius: 8px;
+    color: #00ffff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.back-button:hover {
+    background-color: #00ffff;
+    color: #0a0a0a !important;
+    box-shadow: 0 0 10px #00ffff;
+    transform: translateY(-2px);
+}
+</style>
+
+    </main>
+    <footer style="background: rgba(0, 0, 0, 0.3); padding: 2rem 0; margin-top: 4rem; text-align: center; border-top: 1px solid rgba(255, 255, 255, 0.1);">
+    <div class="container">
+        <p style="color: #888; margin: 0;">
+            Copyright © 2025 • Made by <a href="https://github.com/m03315" target="_blank" style="color: #9d50bb; text-decoration: none;">Nguyễn An Nhật</a>
+        </p>
+    </div>
+</footer>
+</body>
+</html>

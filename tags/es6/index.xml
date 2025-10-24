@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Es6 on My Nomad Tech Site</title>
+    <link>https://nguyenanhnhat12.github.io/myblog/tags/es6/</link>
+    <description>Recent content in Es6 on My Nomad Tech Site</description>
+    <generator>Hugo</generator>
+    <language>vi</language>
+    <lastBuildDate>Wed, 15 Oct 2025 02:41:15 +0700</lastBuildDate>
+    <atom:link href="https://nguyenanhnhat12.github.io/myblog/tags/es6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Javascript Es6</title>
+      <link>https://nguyenanhnhat12.github.io/myblog/posts/javascript-es6/</link>
+      <pubDate>Wed, 15 Oct 2025 02:41:15 +0700</pubDate>
+      <guid>https://nguyenanhnhat12.github.io/myblog/posts/javascript-es6/</guid>
+      <description>&lt;h2 id=&#34;javascript-es6-hướng-dẫn-cơ-bản&#34;&gt;JavaScript ES6: Hướng dẫn cơ bản&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-giới-thiệu-về-es6&#34;&gt;1. Giới thiệu về ES6&lt;/h3&gt;&#xA;&lt;p&gt;ES6 (ECMAScript 2015) là phiên bản cải tiến lớn của JavaScript, mang đến cú pháp hiện đại và tính năng mạnh mẽ:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;🛠 &lt;strong&gt;Cú pháp ngắn gọn&lt;/strong&gt;: &lt;code&gt;let&lt;/code&gt;, &lt;code&gt;const&lt;/code&gt;, arrow function&lt;/li&gt;&#xA;&lt;li&gt;📦 &lt;strong&gt;Module&lt;/strong&gt;: Nhập/xuất module&lt;/li&gt;&#xA;&lt;li&gt;🔄 &lt;strong&gt;Destructuring&lt;/strong&gt;: Trích xuất dữ liệu dễ dàng&lt;/li&gt;&#xA;&lt;li&gt;🌟 &lt;strong&gt;Spread/Rest&lt;/strong&gt;: Xử lý mảng và đối tượng linh hoạt&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;2-thiết-lập-môi-trường&#34;&gt;2. Thiết lập môi trường&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Trình duyệt&lt;/strong&gt;: Hỗ trợ ES6 (Chrome, Firefox)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Node.js&lt;/strong&gt;: Tải từ &lt;a href=&#34;https://nodejs.org&#34;&gt;nodejs.org&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;IDE&lt;/strong&gt;: VS Code, thêm Babel nếu cần chuyển đổi ES6 sang ES5&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;3-let-và-const&#34;&gt;3. Let và Const&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;John&amp;#34;&lt;/span&gt;; &lt;span style=&#34;color:#75715e&#34;&gt;// Có thể thay đổi giá trị&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;age&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;30&lt;/span&gt;; &lt;span style=&#34;color:#75715e&#34;&gt;// Không thể thay đổi&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;4-arrow-function&#34;&gt;4. Arrow Function&lt;/h3&gt;&#xA;&lt;p&gt;Cú pháp ngắn gọn cho hàm:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

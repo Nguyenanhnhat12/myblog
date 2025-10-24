@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oop on My Nomad Tech Site</title>
+    <link>https://nguyenanhnhat12.github.io/myblog/tags/oop/</link>
+    <description>Recent content in Oop on My Nomad Tech Site</description>
+    <generator>Hugo</generator>
+    <language>vi</language>
+    <lastBuildDate>Wed, 15 Oct 2025 02:41:14 +0700</lastBuildDate>
+    <atom:link href="https://nguyenanhnhat12.github.io/myblog/tags/oop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lập Trình Hướng Đối Tượng Trong Java</title>
+      <link>https://nguyenanhnhat12.github.io/myblog/posts/java-oop/</link>
+      <pubDate>Wed, 15 Oct 2025 02:41:14 +0700</pubDate>
+      <guid>https://nguyenanhnhat12.github.io/myblog/posts/java-oop/</guid>
+      <description>&lt;h2 id=&#34;lập-trình-hướng-đối-tượng-trong-java&#34;&gt;Lập Trình Hướng Đối Tượng Trong Java&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-giới-thiệu-về-oop-&#34;&gt;1. Giới Thiệu về OOP 🎯&lt;/h3&gt;&#xA;&lt;p&gt;Lập trình hướng đối tượng (OOP) là một phương pháp lập trình dựa trên khái niệm về &amp;ldquo;objects&amp;rdquo; - các đối tượng chứa dữ liệu và code. OOP có 4 tính chất cơ bản:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;📦 &lt;strong&gt;Tính đóng gói&lt;/strong&gt; (Encapsulation)&lt;/li&gt;&#xA;&lt;li&gt;🔄 &lt;strong&gt;Tính kế thừa&lt;/strong&gt; (Inheritance)&lt;/li&gt;&#xA;&lt;li&gt;📝 &lt;strong&gt;Tính đa hình&lt;/strong&gt; (Polymorphism)&lt;/li&gt;&#xA;&lt;li&gt;🎨 &lt;strong&gt;Tính trừu tượng&lt;/strong&gt; (Abstraction)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;2-tính-đóng-gói-encapsulation&#34;&gt;2. Tính Đóng Gói (Encapsulation)&lt;/h3&gt;&#xA;&lt;p&gt;Đóng gói là việc gom dữ liệu và phương thức vào một lớp và kiểm soát quyền truy cập:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

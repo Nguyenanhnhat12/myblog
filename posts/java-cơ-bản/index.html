@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+
+<title>Java Cơ Bản | My Nomad Tech Site</title>
+<meta name="description" content="Hướng dẫn cơ bản về lập trình Java">
+
+
+<meta property="og:title" content="Java Cơ Bản | My Nomad Tech Site">
+<meta property="og:description" content="Hướng dẫn cơ bản về lập trình Java">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://nguyenanhnhat12.github.io/myblog/posts/java-c%C6%A1-b%E1%BA%A3n/">
+<meta property="og:site_name" content="My Nomad Tech Site">
+
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Java Cơ Bản | My Nomad Tech Site">
+<meta name="twitter:description" content="Hướng dẫn cơ bản về lập trình Java">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "name": "Java Cơ Bản | My Nomad Tech Site",
+  "url": "https:\/\/nguyenanhnhat12.github.io\/myblog\/posts\/java-c%C6%A1-b%E1%BA%A3n\/",
+  
+  "headline": "Java Cơ Bản",
+  "datePublished": "2025-10-15T03:04:07\u002b07:00",
+  "author": {
+    "@type": "Person",
+    "name": "Nguyễn Anh Nhật"
+  }
+  
+}
+</script>
+    
+
+<link rel="stylesheet" href="/myblog/scss/main.min.d7bf61d9add05695af38c2250bd4536060997ce44ed2d7ada784b47bcb71c29c.css" integrity="sha256-179h2a3QVpWvOMIlC9RTYGCZfORO0tetp4S0e8txwpw=">
+
+
+
+<script src="/myblog/js/main.min.1dc48d277f58c447b08394eeabd1a9c2ee6bacc162b90044cc98b07898af3d86.js" integrity="sha256-HcSNJ39YxEewg5Tuq9Gpwu5rrMFiuQBEzJiweJivPYY=" defer></script>
+    
+</head>
+<body>
+    <div class="particles" id="particles"></div>
+    <nav role="navigation" aria-label="Main navigation">
+    <div class="container">
+        <div class="nav-container">
+            <a href="https://nguyenanhnhat12.github.io/myblog/" class="logo" aria-label="My Nomad Tech Site - Home">Blog của NguyenAnhNhat</a>
+            <ul class="nav-links" id="nav-menu">
+                
+                <li><a href="/myblog/" aria-current="false">Trang chủ</a></li>
+                
+                <li><a href="/myblog/profile/" aria-current="false">Giới thiệu</a></li>
+                
+                <li><a href="/myblog/posts/" aria-current="false">Blog</a></li>
+                
+                <li><a href="/myblog/contact/" aria-current="false">Liên hệ</a></li>
+                
+            </ul>
+            <div class="lang-switcher" role="group" aria-label="Language selection">
+                
+                <a href="https://nguyenanhnhat12.github.io/myblog/vi/" 
+                   class="lang-link active" 
+                   aria-label="Switch to Vietnamese" 
+                   aria-current="true">VI</a>
+                
+            </div>
+            <button class="mobile-menu-btn" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">☰</button>
+        </div>
+    </div>
+</nav>
+    <main id="main" role="main">
+        
+<div class="post-container">
+    
+    <header class="post-header">
+        
+        
+        <div class="featured-image">
+            <img src="images/java/java-header.jpg" alt="Java Cơ Bản">
+        </div>
+        
+        
+        
+        <div class="post-meta">
+            <h1 class="post-title">Java Cơ Bản</h1>
+            <div class="post-info">
+                <span class="post-date">
+                    <i class="fas fa-calendar"></i>
+                    15/10/2025
+                </span>
+                
+                <span class="post-categories">
+                    <i class="fas fa-folder"></i>
+                    
+                    <a href="/categories/java">Java</a>
+                    
+                </span>
+                
+                
+                <span class="post-tags">
+                    <i class="fas fa-tags"></i>
+                    
+                    <a href="/tags/java">#java</a>
+                    
+                    <a href="/tags/programming">#programming</a>
+                    
+                    <a href="/tags/tutorial">#tutorial</a>
+                    
+                </span>
+                
+            </div>
+        </div>
+    </header>
+
+    
+    <article class="post-content">
+        <div class="post-body">
+            <h2 id="lập-trình-java-khái-niệm-cơ-bản-cho-người-mới-bắt-đầu">Lập trình Java: Khái niệm cơ bản cho người mới bắt đầu</h2>
+<h3 id="1-giới-thiệu-về-java">1. Giới thiệu về Java</h3>
+<p>Java là ngôn ngữ lập trình hướng đối tượng, được phát triển bởi Sun Microsystems vào năm 1995. Ngôn ngữ này có những đặc điểm nổi bật sau:</p>
+<ul>
+<li>✨ <strong>Write Once, Run Anywhere</strong>: Chạy được trên mọi nền tảng</li>
+<li>🎯 <strong>Hướng đối tượng</strong>: Mọi thứ đều là đối tượng</li>
+<li>🔒 <strong>Bảo mật cao</strong>: Chạy trong môi trường máy ảo an toàn</li>
+<li>🚀 <strong>Hiệu năng tốt</strong>: Tối ưu cho ứng dụng enterprise</li>
+<li>🧵 <strong>Đa luồng</strong>: Hỗ trợ xử lý đồng thời</li>
+</ul>
+<h3 id="2-cài-đặt-môi-trường-java">2. Cài đặt môi trường Java</h3>
+<blockquote>
+<p><strong>Bước 1</strong>: Tải JDK từ trang chủ Oracle<br>
+<strong>Bước 2</strong>: Cài đặt JDK vào máy tính<br>
+<strong>Bước 3</strong>: Thiết lập biến môi trường JAVA_HOME<br>
+<strong>Bước 4</strong>: Cài đặt IDE (Eclipse/IntelliJ IDEA/VS Code)</p></blockquote>
+<h3 id="3-chương-trình-java-đầu-tiên">3. Chương trình Java đầu tiên</h3>
+<p>Hãy bắt đầu với chương trình Hello World truyền thống:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">HelloWorld</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args) {
+</span></span><span style="display:flex;"><span>        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Hello, World! 👋&#34;</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h3 id="4-kiểu-dữ-liệu-cơ-bản">4. Kiểu dữ liệu cơ bản</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Kiểu dữ liệu</th>
+          <th>Kích thước</th>
+          <th>Phạm vi giá trị</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>byte</td>
+          <td>8-bit</td>
+          <td>-128 đến 127</td>
+      </tr>
+      <tr>
+          <td>short</td>
+          <td>16-bit</td>
+          <td>-32,768 đến 32,767</td>
+      </tr>
+      <tr>
+          <td>int</td>
+          <td>32-bit</td>
+          <td>-2^31 đến 2^31-1</td>
+      </tr>
+      <tr>
+          <td>long</td>
+          <td>64-bit</td>
+          <td>-2^63 đến 2^63-1</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="5-cấu-trúc-điều-khiển">5. Cấu trúc điều khiển</h3>
+<h4 id="if-else">If-else</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> (điều_kiện) {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Code khi điều kiện đúng</span>
+</span></span><span style="display:flex;"><span>} <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Code khi điều kiện sai</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h4 id="vòng-lặp-for">Vòng lặp for</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> 0; i <span style="color:#f92672">&lt;</span> 5; i<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>    System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Lần &#34;</span> <span style="color:#f92672">+</span> (i<span style="color:#f92672">+</span>1));
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h3 id="6-ví-dụ-về-mảng">6. Ví dụ về mảng</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#75715e">// Khai báo mảng một chiều</span>
+</span></span><span style="display:flex;"><span>String<span style="color:#f92672">[]</span> fruits <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#34;🍎&#34;</span>, <span style="color:#e6db74">&#34;🍌&#34;</span>, <span style="color:#e6db74">&#34;🍊&#34;</span>};
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Duyệt mảng</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> (String fruit : fruits) {
+</span></span><span style="display:flex;"><span>    System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(fruit);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h3 id="7-methods-trong-java">7. Methods trong Java</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Calculator</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Method cộng hai số</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">add</span>(<span style="color:#66d9ef">int</span> a, <span style="color:#66d9ef">int</span> b) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> a <span style="color:#f92672">+</span> b;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><hr>
+<blockquote>
+<p>💡 <strong>Lưu ý</strong>: Bài viết này chỉ giới thiệu những khái niệm cơ bản. Để trở thành lập trình viên Java chuyên nghiệp, bạn cần:</p>
+<ul>
+<li>Thực hành code thường xuyên</li>
+<li>Tìm hiểu OOP sâu hơn</li>
+<li>Học về Collections Framework</li>
+<li>Nắm vững Exception Handling</li>
+</ul></blockquote>
+<h4 id="tài-liệu-tham-khảo">Tài liệu tham khảo</h4>
+<ul>
+<li><a href="https://docs.oracle.com/en/java/">Java Documentation</a></li>
+<li><a href="https://docs.oracle.com/javase/tutorial/">Java Tutorials</a></li>
+</ul>
+
+        </div>
+    </article>
+
+    
+    <footer class="post-footer">
+        
+        <nav class="post-nav">
+            
+            <a class="prev" href="https://nguyenanhnhat12.github.io/myblog/posts/javascript-nodejs/">
+                <i class="fas fa-arrow-left"></i>
+                Javascript Nodejs
+            </a>
+            
+            
+            <a class="next" href="https://nguyenanhnhat12.github.io/myblog/posts/java-spring-boot/">
+                Java Spring Boot
+                <i class="fas fa-arrow-right"></i>
+            </a>
+            
+        </nav>
+
+        
+        <div class="back-to-blog">
+            <a href="/posts/" class="back-button">
+                ← Quay lại Blog
+            </a>
+        </div>
+    </footer>
+</div>
+
+<style>
+.back-to-blog {
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border: 2px solid #00ffff;
+    border-radius: 8px;
+    color: #00ffff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.back-button:hover {
+    background-color: #00ffff;
+    color: #0a0a0a !important;
+    box-shadow: 0 0 10px #00ffff;
+    transform: translateY(-2px);
+}
+</style>
+
+    </main>
+    <footer style="background: rgba(0, 0, 0, 0.3); padding: 2rem 0; margin-top: 4rem; text-align: center; border-top: 1px solid rgba(255, 255, 255, 0.1);">
+    <div class="container">
+        <p style="color: #888; margin: 0;">
+            Copyright © 2025 • Made by <a href="https://github.com/m03315" target="_blank" style="color: #9d50bb; text-decoration: none;">Nguyễn An Nhật</a>
+        </p>
+    </div>
+</footer>
+</body>
+</html>

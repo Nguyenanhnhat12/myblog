@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+
+<title>Java Collections Framework | My Nomad Tech Site</title>
+<meta name="description" content="Hướng dẫn cơ bản về lập trình Java">
+
+
+<meta property="og:title" content="Java Collections Framework | My Nomad Tech Site">
+<meta property="og:description" content="Hướng dẫn cơ bản về lập trình Java">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://nguyenanhnhat12.github.io/myblog/posts/java-collection/">
+<meta property="og:site_name" content="My Nomad Tech Site">
+
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Java Collections Framework | My Nomad Tech Site">
+<meta name="twitter:description" content="Hướng dẫn cơ bản về lập trình Java">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "name": "Java Collections Framework | My Nomad Tech Site",
+  "url": "https:\/\/nguyenanhnhat12.github.io\/myblog\/posts\/java-collection\/",
+  
+  "headline": "Java Collections Framework",
+  "datePublished": "2025-10-15T02:41:14\u002b07:00",
+  "author": {
+    "@type": "Person",
+    "name": "Nguyễn Anh Nhật"
+  }
+  
+}
+</script>
+    
+
+<link rel="stylesheet" href="/myblog/scss/main.min.d7bf61d9add05695af38c2250bd4536060997ce44ed2d7ada784b47bcb71c29c.css" integrity="sha256-179h2a3QVpWvOMIlC9RTYGCZfORO0tetp4S0e8txwpw=">
+
+
+
+<script src="/myblog/js/main.min.1dc48d277f58c447b08394eeabd1a9c2ee6bacc162b90044cc98b07898af3d86.js" integrity="sha256-HcSNJ39YxEewg5Tuq9Gpwu5rrMFiuQBEzJiweJivPYY=" defer></script>
+    
+</head>
+<body>
+    <div class="particles" id="particles"></div>
+    <nav role="navigation" aria-label="Main navigation">
+    <div class="container">
+        <div class="nav-container">
+            <a href="https://nguyenanhnhat12.github.io/myblog/" class="logo" aria-label="My Nomad Tech Site - Home">Blog của NguyenAnhNhat</a>
+            <ul class="nav-links" id="nav-menu">
+                
+                <li><a href="/myblog/" aria-current="false">Trang chủ</a></li>
+                
+                <li><a href="/myblog/profile/" aria-current="false">Giới thiệu</a></li>
+                
+                <li><a href="/myblog/posts/" aria-current="false">Blog</a></li>
+                
+                <li><a href="/myblog/contact/" aria-current="false">Liên hệ</a></li>
+                
+            </ul>
+            <div class="lang-switcher" role="group" aria-label="Language selection">
+                
+                <a href="https://nguyenanhnhat12.github.io/myblog/vi/" 
+                   class="lang-link active" 
+                   aria-label="Switch to Vietnamese" 
+                   aria-current="true">VI</a>
+                
+            </div>
+            <button class="mobile-menu-btn" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">☰</button>
+        </div>
+    </div>
+</nav>
+    <main id="main" role="main">
+        
+<div class="post-container">
+    
+    <header class="post-header">
+        
+        
+        <div class="featured-image">
+            <img src="images/java/java-collection.webp" alt="Java Collections Framework">
+        </div>
+        
+        
+        
+        <div class="post-meta">
+            <h1 class="post-title">Java Collections Framework</h1>
+            <div class="post-info">
+                <span class="post-date">
+                    <i class="fas fa-calendar"></i>
+                    15/10/2025
+                </span>
+                
+                <span class="post-categories">
+                    <i class="fas fa-folder"></i>
+                    
+                    <a href="/categories/java">Java</a>
+                    
+                </span>
+                
+                
+                <span class="post-tags">
+                    <i class="fas fa-tags"></i>
+                    
+                    <a href="/tags/java">#java</a>
+                    
+                    <a href="/tags/collections">#collections</a>
+                    
+                    <a href="/tags/programming">#programming</a>
+                    
+                    <a href="/tags/data-structures">#data-structures</a>
+                    
+                </span>
+                
+            </div>
+        </div>
+    </header>
+
+    
+    <article class="post-content">
+        <div class="post-body">
+            <h2 id="java-collections-framework-tổng-quan-và-cách-sử-dụng">Java Collections Framework: Tổng Quan và Cách Sử Dụng</h2>
+<p>Java Collections Framework cung cấp một kiến trúc để lưu trữ và thao tác với các nhóm đối tượng. Framework này giúp lập trình viên làm việc hiệu quả với dữ liệu.</p>
+<h3 id="1-giới-thiệu-collections-framework-">1. Giới Thiệu Collections Framework 🌟</h3>
+<p>Collections Framework bao gồm:</p>
+<ul>
+<li><strong>Interfaces</strong>: Các abstract data types định nghĩa collections</li>
+<li><strong>Implementations</strong>: Các lớp cụ thể của interfaces</li>
+<li><strong>Algorithms</strong>: Các phương thức để xử lý collections</li>
+</ul>
+<h3 id="2-các-interface-chính-">2. Các Interface Chính 📚</h3>
+<h4 id="21-collection-interface">2.1 Collection Interface</h4>
+<p>Interface gốc của hierarchy với các operation cơ bản:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">interface</span> <span style="color:#a6e22e">Collection</span><span style="color:#f92672">&lt;</span>E<span style="color:#f92672">&gt;</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">boolean</span> <span style="color:#a6e22e">add</span>(E element);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">boolean</span> <span style="color:#a6e22e">remove</span>(Object element);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">boolean</span> <span style="color:#a6e22e">contains</span>(Object element);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">size</span>();
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// ...</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h4 id="22-list-interface">2.2 List Interface</h4>
+<p>Danh sách có thứ tự, cho phép phần tử trùng lặp:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>List<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">&gt;</span> list <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> ArrayList<span style="color:#f92672">&lt;&gt;</span>();
+</span></span><span style="display:flex;"><span>list.<span style="color:#a6e22e">add</span>(<span style="color:#e6db74">&#34;Java&#34;</span>);
+</span></span><span style="display:flex;"><span>list.<span style="color:#a6e22e">add</span>(<span style="color:#e6db74">&#34;Python&#34;</span>);
+</span></span><span style="display:flex;"><span>list.<span style="color:#a6e22e">add</span>(<span style="color:#e6db74">&#34;JavaScript&#34;</span>);
+</span></span></code></pre></div><h4 id="23-set-interface">2.3 Set Interface</h4>
+<p>Tập hợp không cho phép phần tử trùng lặp:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>Set<span style="color:#f92672">&lt;</span>Integer<span style="color:#f92672">&gt;</span> set <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> HashSet<span style="color:#f92672">&lt;&gt;</span>();
+</span></span><span style="display:flex;"><span>set.<span style="color:#a6e22e">add</span>(1);  <span style="color:#75715e">// true</span>
+</span></span><span style="display:flex;"><span>set.<span style="color:#a6e22e">add</span>(1);  <span style="color:#75715e">// false - đã tồn tại</span>
+</span></span></code></pre></div><h4 id="24-map-interface">2.4 Map Interface</h4>
+<p>Lưu trữ cặp key-value:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>Map<span style="color:#f92672">&lt;</span>String, Integer<span style="color:#f92672">&gt;</span> map <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> HashMap<span style="color:#f92672">&lt;&gt;</span>();
+</span></span><span style="display:flex;"><span>map.<span style="color:#a6e22e">put</span>(<span style="color:#e6db74">&#34;Java&#34;</span>, 1995);
+</span></span><span style="display:flex;"><span>map.<span style="color:#a6e22e">put</span>(<span style="color:#e6db74">&#34;Python&#34;</span>, 1991);
+</span></span></code></pre></div><h3 id="3-các-implementation-phổ-biến-">3. Các Implementation Phổ Biến 🛠️</h3>
+<h4 id="31-arraylist">3.1 ArrayList</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>ArrayList<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">&gt;</span> languages <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> ArrayList<span style="color:#f92672">&lt;&gt;</span>();
+</span></span><span style="display:flex;"><span>languages.<span style="color:#a6e22e">add</span>(<span style="color:#e6db74">&#34;Java&#34;</span>);       <span style="color:#75715e">// Thêm phần tử</span>
+</span></span><span style="display:flex;"><span>languages.<span style="color:#a6e22e">get</span>(0);           <span style="color:#75715e">// Lấy phần tử</span>
+</span></span><span style="display:flex;"><span>languages.<span style="color:#a6e22e">remove</span>(0);        <span style="color:#75715e">// Xóa phần tử</span>
+</span></span></code></pre></div><h4 id="32-linkedlist">3.2 LinkedList</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>LinkedList<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">&gt;</span> queue <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> LinkedList<span style="color:#f92672">&lt;&gt;</span>();
+</span></span><span style="display:flex;"><span>queue.<span style="color:#a6e22e">offer</span>(<span style="color:#e6db74">&#34;First&#34;</span>);      <span style="color:#75715e">// Thêm vào cuối</span>
+</span></span><span style="display:flex;"><span>queue.<span style="color:#a6e22e">poll</span>();              <span style="color:#75715e">// Lấy và xóa phần tử đầu</span>
+</span></span><span style="display:flex;"><span>queue.<span style="color:#a6e22e">peek</span>();              <span style="color:#75715e">// Xem phần tử đầu</span>
+</span></span></code></pre></div><h4 id="33-hashset">3.3 HashSet</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>HashSet<span style="color:#f92672">&lt;</span>Integer<span style="color:#f92672">&gt;</span> numbers <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> HashSet<span style="color:#f92672">&lt;&gt;</span>();
+</span></span><span style="display:flex;"><span>numbers.<span style="color:#a6e22e">add</span>(1);            <span style="color:#75715e">// Thêm phần tử</span>
+</span></span><span style="display:flex;"><span>numbers.<span style="color:#a6e22e">contains</span>(1);       <span style="color:#75715e">// Kiểm tra tồn tại</span>
+</span></span><span style="display:flex;"><span>numbers.<span style="color:#a6e22e">remove</span>(1);         <span style="color:#75715e">// Xóa phần tử</span>
+</span></span></code></pre></div><h4 id="34-hashmap">3.4 HashMap</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>HashMap<span style="color:#f92672">&lt;</span>String, Integer<span style="color:#f92672">&gt;</span> ages <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> HashMap<span style="color:#f92672">&lt;&gt;</span>();
+</span></span><span style="display:flex;"><span>ages.<span style="color:#a6e22e">put</span>(<span style="color:#e6db74">&#34;John&#34;</span>, 25);      <span style="color:#75715e">// Thêm cặp key-value</span>
+</span></span><span style="display:flex;"><span>ages.<span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#34;John&#34;</span>);          <span style="color:#75715e">// Lấy value theo key</span>
+</span></span><span style="display:flex;"><span>ages.<span style="color:#a6e22e">remove</span>(<span style="color:#e6db74">&#34;John&#34;</span>);       <span style="color:#75715e">// Xóa entry</span>
+</span></span></code></pre></div><h3 id="4-so-sánh-hiệu-năng-">4. So Sánh Hiệu Năng ⚡</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Collection</th>
+          <th>Add</th>
+          <th>Remove</th>
+          <th>Get</th>
+          <th>Contains</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>ArrayList</td>
+          <td>O(1)</td>
+          <td>O(n)</td>
+          <td>O(1)</td>
+          <td>O(n)</td>
+      </tr>
+      <tr>
+          <td>LinkedList</td>
+          <td>O(1)</td>
+          <td>O(1)</td>
+          <td>O(n)</td>
+          <td>O(n)</td>
+      </tr>
+      <tr>
+          <td>HashSet</td>
+          <td>O(1)</td>
+          <td>O(1)</td>
+          <td>N/A</td>
+          <td>O(1)</td>
+      </tr>
+      <tr>
+          <td>HashMap</td>
+          <td>O(1)</td>
+          <td>O(1)</td>
+          <td>O(1)</td>
+          <td>O(1)</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="5-ví-dụ-thực-tế-">5. Ví Dụ Thực Tế 💡</h3>
+<h4 id="51-quản-lý-danh-sách-sinh-viên">5.1 Quản lý danh sách sinh viên</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">StudentManager</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> List<span style="color:#f92672">&lt;</span>Student<span style="color:#f92672">&gt;</span> students <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> ArrayList<span style="color:#f92672">&lt;&gt;</span>();
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">addStudent</span>(Student student) {
+</span></span><span style="display:flex;"><span>        students.<span style="color:#a6e22e">add</span>(student);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> Student <span style="color:#a6e22e">findByID</span>(<span style="color:#66d9ef">int</span> id) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> students.<span style="color:#a6e22e">stream</span>()
+</span></span><span style="display:flex;"><span>                      .<span style="color:#a6e22e">filter</span>(s <span style="color:#f92672">-&gt;</span> s.<span style="color:#a6e22e">getId</span>() <span style="color:#f92672">==</span> id)
+</span></span><span style="display:flex;"><span>                      .<span style="color:#a6e22e">findFirst</span>()
+</span></span><span style="display:flex;"><span>                      .<span style="color:#a6e22e">orElse</span>(<span style="color:#66d9ef">null</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h4 id="52-đếm-từ-trong-văn-bản">5.2 Đếm từ trong văn bản</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">WordCounter</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> Map<span style="color:#f92672">&lt;</span>String, Integer<span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">countWords</span>(String text) {
+</span></span><span style="display:flex;"><span>        Map<span style="color:#f92672">&lt;</span>String, Integer<span style="color:#f92672">&gt;</span> wordCount <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> HashMap<span style="color:#f92672">&lt;&gt;</span>();
+</span></span><span style="display:flex;"><span>        String<span style="color:#f92672">[]</span> words <span style="color:#f92672">=</span> text.<span style="color:#a6e22e">split</span>(<span style="color:#e6db74">&#34;\\s+&#34;</span>);
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (String word : words) {
+</span></span><span style="display:flex;"><span>            wordCount.<span style="color:#a6e22e">merge</span>(word.<span style="color:#a6e22e">toLowerCase</span>(), 1, Integer::sum);
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> wordCount;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h3 id="6-best-practices-">6. Best Practices 🎯</h3>
+<ol>
+<li>
+<p><strong>Chọn đúng Collection</strong>:</p>
+<ul>
+<li>Cần truy cập ngẫu nhiên → ArrayList</li>
+<li>Cần thêm/xóa nhiều → LinkedList</li>
+<li>Cần unique elements → Set</li>
+<li>Cần key-value pairs → Map</li>
+</ul>
+</li>
+<li>
+<p><strong>Sử dụng Generics</strong>:</p>
+</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#75715e">// Tốt</span>
+</span></span><span style="display:flex;"><span>List<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">&gt;</span> list <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> ArrayList<span style="color:#f92672">&lt;&gt;</span>();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Không tốt</span>
+</span></span><span style="display:flex;"><span>List list <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> ArrayList();
+</span></span></code></pre></div><ol start="3">
+<li><strong>Khởi tạo với kích thước hợp lý</strong>:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#75715e">// Tốt - nếu biết sẽ có 1000 phần tử</span>
+</span></span><span style="display:flex;"><span>ArrayList<span style="color:#f92672">&lt;</span>Integer<span style="color:#f92672">&gt;</span> list <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> ArrayList<span style="color:#f92672">&lt;&gt;</span>(1000);
+</span></span></code></pre></div><h3 id="-key-points">🔑 Key Points</h3>
+<ul>
+<li>Collections Framework giúp quản lý dữ liệu hiệu quả</li>
+<li>Chọn cấu trúc dữ liệu phù hợp với nhu cầu</li>
+<li>Sử dụng Generics để type-safe</li>
+<li>Cân nhắc hiệu năng khi chọn implementation</li>
+</ul>
+<h3 id="-tài-liệu-tham-khảo">📚 Tài Liệu Tham Khảo</h3>
+<ul>
+<li><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Collection.html">Java Documentation - Collections</a></li>
+<li><a href="https://docs.oracle.com/javase/tutorial/collections/index.html">Oracle Tutorial - Collections Framework</a></li>
+</ul>
+
+        </div>
+    </article>
+
+    
+    <footer class="post-footer">
+        
+        <nav class="post-nav">
+            
+            <a class="prev" href="https://nguyenanhnhat12.github.io/myblog/posts/javascript-c%C6%A1-b%E1%BA%A3n/">
+                <i class="fas fa-arrow-left"></i>
+                Javascript Cơ Bản
+            </a>
+            
+            
+            <a class="next" href="https://nguyenanhnhat12.github.io/myblog/posts/javascript-es6/">
+                Javascript Es6
+                <i class="fas fa-arrow-right"></i>
+            </a>
+            
+        </nav>
+
+        
+        <div class="back-to-blog">
+            <a href="/posts/" class="back-button">
+                ← Quay lại Blog
+            </a>
+        </div>
+    </footer>
+</div>
+
+<style>
+.back-to-blog {
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border: 2px solid #00ffff;
+    border-radius: 8px;
+    color: #00ffff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.back-button:hover {
+    background-color: #00ffff;
+    color: #0a0a0a !important;
+    box-shadow: 0 0 10px #00ffff;
+    transform: translateY(-2px);
+}
+</style>
+
+    </main>
+    <footer style="background: rgba(0, 0, 0, 0.3); padding: 2rem 0; margin-top: 4rem; text-align: center; border-top: 1px solid rgba(255, 255, 255, 0.1);">
+    <div class="container">
+        <p style="color: #888; margin: 0;">
+            Copyright © 2025 • Made by <a href="https://github.com/m03315" target="_blank" style="color: #9d50bb; text-decoration: none;">Nguyễn An Nhật</a>
+        </p>
+    </div>
+</footer>
+</body>
+</html>
